@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 gem 'kaminari', '~> 1.2'
 gem "ransack"
 gem "byebug"
@@ -16,7 +17,6 @@ gem "bulma-rails", "~> 0.9.4"
 gem 'active_link_to'
 gem "image_processing", ">= 1.2"
 gem 'receipts'
-
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -71,8 +71,8 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-
   gem "web-console"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
