@@ -22,7 +22,7 @@
       <th><%= t('product_sells.quantity_label') %></th>
       <th><%= t('product_sells.price_label') %></th>
       <th><%= t('product_sells.total_label') %></th>
-      <% unless shrink && policy(Sale.last).profit? %>
+      <% unless shrink && policy(Sale).profit? %>
         <th><%= t('product_sells.total_profit_label') %></th>
       <% end %>
       <% unless shrink %>
