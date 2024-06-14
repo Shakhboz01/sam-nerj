@@ -13,7 +13,7 @@
   <td><%= product_sell.amount.to_f %> <%= product_sell.pack.unit %></td>
   <td title="<%= product_sell.buy_price %>" ><%= currency_convert(product_sell.price_in_usd, product_sell.sell_price) %></td>
   <td><%= currency_convert(product_sell.price_in_usd, (product_sell.sell_price * product_sell.amount.to_f)) %></td>
-  <% unless shrink && policy(Sale.last).profit? %>
+  <% unless shrink && policy(Sale).profit? %>
     <th><%= product_sell.total_profit %></th>
   <% end %>
   <% unless shrink %>
