@@ -31,6 +31,8 @@ class ProductSellsController < ApplicationController
 
   # POST /product_sells or /product_sells.json
   def create
+    return handle_returning_pack(product_sell_params) unless product_sell_params['returning_pack'].to_i.zero?
+
     @product_sell = ProductSell.new(product_sell_params)
 
     unless (pack_name = product_sell_params[:pack_name]).empty?
@@ -99,12 +101,25 @@ class ProductSellsController < ApplicationController
     @product_sell = ProductSell.find(params[:id])
   end
 
+  def handle_returning_pack(prod_sell_params)
+    sale = Sale.find(prod_sell_params['sale_id'])
+    pack = Pack.find(prod_sell_params['pack_id'])
+    product_sell = sale.product_sells.where(pack_id: pack.id).last
+    return redirect_to request.referrer, notice: 'XATOLIK!!! Tovar mavjud emas' unless product_sell
+
+    price_to_decrement = prod_sell_params['amount'].to_f * prod_sell_params['sell_price'].to_f
+    product_sell.decrement!(:amount, prod_sell_params['amount'].to_f)
+    sale.decrement!(:total_price, price_to_decrement)
+    pack.increment!(:initial_remaining, prod_sell_params['amount'].to_f)
+    redirect_to request.referrer, notice: 'Success'
+  end
+
   # Only allow a list of trusted parameters through.
   def product_sell_params
     params.require(:product_sell).permit(
       :sale_from_local_service_id, :sale_id, :combination_of_local_product_id,
       :sell_price, :sell_price_in_uzs, :product_id, :total_profit, :amount, :payment_type, :pack_id, :barcode,
-      :sell_by_piece, :pack_name
+      :sell_by_piece, :pack_name, :returning_pack
     )
   end
 end

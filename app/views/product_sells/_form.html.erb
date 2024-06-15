@@ -32,6 +32,7 @@
             <div class='pack-select'>
               <%= f.association :pack, label: false, collection: Pack.where(active: true).order(:name), include_blank: true, input_html: { hidden: true, id: 'pack-select' } %>
             </div>
+            <%= f.input :returning_pack, as: :boolean, label: 'Возврат', input_html: {checked: false} %>
             <div id='pack_name' style='display: none'>
               <%= f.input :pack_name, label: t('pack_name_label') %>
             </div>

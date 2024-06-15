@@ -8,6 +8,9 @@
   </div>
   <ul style='font-size: large; font-weight: bold'>
     <li><%= t('invoice.customer', name: @sale.buyer.name.upcase, phone: @sale.buyer&.phone_number) %></li>
+    <% if @sale.comment.present? %>
+      <li><%= @sale.comment %></li>
+    <% end %>
   </ul>
   <table style='font-size: large' class='table table-striped table-large table-bordered'>
     <thead class='table-dark'>
