@@ -37,11 +37,11 @@
         <th></th>
         <th><%= @sale.product_sells.sum(:amount) %></th>
         <th></th>
-        <th><%= currency_convert(@sale.price_in_usd, @sale.product_sells.sum('sell_price * amount')) %></th>
+        <th style='font-size: larger'><%= currency_convert(@sale.price_in_usd, @sale.product_sells.sum('sell_price * amount')) %></th>
       </tr>
     </tbody>
   </table>
-  <ul style='font-size: large; font-weight: bold'>
+  <ul style='font-size: larger; font-weight: bold'>
     <li><%= t('invoice.total_paid', amount: currency_convert(@sale.price_in_usd, @sale.total_paid)) %></li>
     <li><%= t('invoice.debt_after_purchase', date: strf_datetime(DateTime.now), debt_in_uzs: num_to_usd(@total_debt_in_uzs), debt_in_usd: number_to_currency(@total_debt_in_usd)) %></li>
   </ul>
