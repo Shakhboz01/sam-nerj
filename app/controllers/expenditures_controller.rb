@@ -1,5 +1,6 @@
 class ExpendituresController < ApplicationController
   before_action :set_expenditure, only: %i[ show edit update destroy ]
+  include Pundit::Authorization
 
   # GET /expenditures or /expenditures.json
   def index
@@ -71,6 +72,8 @@ class ExpendituresController < ApplicationController
 
   # DELETE /expenditures/1 or /expenditures/1.json
   def destroy
+    authorize Expenditure, :manage?
+
     respond_to do |format|
       if @expenditure.destroy
         format.html { redirect_to request.referrer, notice: "Expenditure was successfully destroyed." }
