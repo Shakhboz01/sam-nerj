@@ -15,6 +15,7 @@ class Pack < ApplicationRecord
   after_create :create_an_entry
   before_update :send_notify_on_remaining_change, if: :saved_change_to_initial_remaining?
 
+  scope :positive_remaining, -> { where('initial_remaining > ?', 0) }
   scope :price_in_uzs, -> { where('price_in_usd = ?', false) }
   scope :price_in_usd, -> { where('price_in_usd = ?', true) }
 
