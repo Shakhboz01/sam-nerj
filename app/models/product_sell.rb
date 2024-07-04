@@ -30,6 +30,10 @@ class ProductSell < ApplicationRecord
   scope :price_in_uzs, -> { where('price_in_usd = ?', false) }
   scope :price_in_usd, -> { where('price_in_usd = ?', true) }
 
+  def total_price
+    amount * sell_price
+  end
+
   private
 
   def enqueue_perform_sell

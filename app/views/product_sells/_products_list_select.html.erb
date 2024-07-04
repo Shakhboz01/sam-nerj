@@ -145,7 +145,7 @@
         </tr>
       </thead>
       <tbody>
-        <% @packs.positive_remaining.each do |product| %>
+        <% @packs.each do |product| %>
           <tr data-category-id="<%= product.product_category.id %>" data-product-sell-price="<%= product.sell_price_based_on_sale_currency(sale_in_usd, rate, @sale.buyer.is_worker) %>" data-product-name="<%= product.name %>" data-product-id="<%= product.id %>" class='product_list'>
             <td class='d-flex align-items-center'>
               <% if product.image.persisted? %>

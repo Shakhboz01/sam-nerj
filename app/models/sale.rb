@@ -34,6 +34,10 @@ class Sale < ApplicationRecord
     total_price
   end
 
+  def sells_info
+    product_sells.map {|ps| "#{ps.pack.name} - #{ps.total_price}"}.join(', ')
+  end
+
   def total_profit
     product_sells.sum(:total_profit)
   end

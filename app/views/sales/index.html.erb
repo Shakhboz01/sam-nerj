@@ -2,10 +2,13 @@
   <div class="card shadow-lg">
     <div class='d-flex justify-content-between'>
       <h1 class='text-center'><%= t('sales.history') %></h1>
-      <%= simple_form_for :sales_data, url: excel_sales_url, method: :get do |f| %>
-        <%= f.input :sale_ids, as: :hidden, input_html: { value: @sales_data.pluck(:id).join(',')} %>
-        <%= f.submit t('sales.print'), class: 'btn btn-primary' %>
-      <% end %>
+      <div class='d-flex'>
+        <%= link_to 'Экспорт в Excel', sales_url(q: params.dig(:q)&.permit!, format: :xlsx), class: 'btn btn-success' %>
+        <%= simple_form_for :sales_data, url: excel_sales_url, method: :get do |f| %>
+          <%= f.input :sale_ids, as: :hidden, input_html: { value: @sales_data.pluck(:id).join(',')} %>
+          <%= f.submit t('sales.print'), class: 'btn btn-primary' %>
+        <% end %>
+      </div>
     </div>
     <div class="card-header d-flex justify-content-between align-items-center">
       <div class="btn-group" role="group" aria-label="Basic example">
