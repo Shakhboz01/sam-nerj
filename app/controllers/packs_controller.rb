@@ -11,7 +11,12 @@ class PacksController < ApplicationController
     @q = Pack.all.ransack(params[:q])
     @packs = @q.result.order(active: :desc).order(name: :asc)
     @all_packs = @packs.where(active: true).where('initial_remaining > 0')
+    @packs_data = @packs
     @packs = @packs.page(params[:page]).per(40)
+    respond_to do |format|
+      format.html
+      format.xlsx
+    end
   end
 
   # GET /packs/1 or /packs/1.json

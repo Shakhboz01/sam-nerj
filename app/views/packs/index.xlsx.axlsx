@@ -1,0 +1,20 @@
+wb = xlsx_package.workbook
+
+wb.add_worksheet(name: "Tovarlar") do |sheet|
+  # Define the headers
+  headers = ['Tovar', 'Kod', 'Ostatka', 'Sotish narxi', 'Sotib olish narxi']
+  styles = wb.styles
+  header_style = styles.add_style(b: true)
+  sheet.add_row headers, style: header_style
+
+  # Add the sales data
+  @packs_data.each do |pack|
+    sheet.add_row [
+      pack.name,
+      pack.code,
+      pack.initial_remaining,
+      pack.sell_price,
+      pack.buy_price,
+    ]
+  end
+end

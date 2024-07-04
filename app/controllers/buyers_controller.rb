@@ -7,6 +7,10 @@ class BuyersController < ApplicationController
     @buyers = @q.result.order(active: :desc)
     @buyers_data = @buyers
     @buyers = @buyers.page(params[:page]).per(70)
+    respond_to do |format|
+      format.html
+      format.xlsx
+    end
   end
 
   # GET /buyers/1 or /buyers/1.json
