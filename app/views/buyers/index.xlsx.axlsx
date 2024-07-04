@@ -1,0 +1,19 @@
+wb = xlsx_package.workbook
+
+wb.add_worksheet(name: "Buyers data") do |sheet|
+  # Define the headers
+  headers = ['Mijoz', 'Qarzi', 'Kommentariya', 'Telefon raqam']
+  styles = wb.styles
+  header_style = styles.add_style(b: true)
+  sheet.add_row headers, style: header_style
+
+  # Add the sales data
+  @buyers_data.each do |buyer|
+    sheet.add_row [
+      buyer.name,
+      buyer.calculate_debt_in_uzs,
+      buyer.comment,
+      buyer.phone_number,
+    ]
+  end
+end
