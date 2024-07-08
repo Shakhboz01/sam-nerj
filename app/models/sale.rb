@@ -42,6 +42,10 @@ class Sale < ApplicationRecord
     product_sells.sum(:total_profit)
   end
 
+  def previous_debt
+    previous_data = buyer.sales.where('id <= ?', id)
+    previous_data.sum(:total_price) - previous_data.sum(:total_paid)
+  end
 
   private
 

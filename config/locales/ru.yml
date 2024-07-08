@@ -256,7 +256,7 @@ ru:
     total_purchase_price: "Общая стоимость покупки"
     total_profit: "Общая прибыль"
     total_paid: "Оплаченная сумма"
-    comment: "Комментарий"
+    comment: "Коммент"
     sale_date: "Дата продажи"
     sold_by: "Продано кем"
     open: "Открыть"

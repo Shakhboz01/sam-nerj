@@ -7,9 +7,12 @@
       <% end %>
       <th><%= t('sales.buyer') %></th>
       <th><%= t('sales.total_purchase_price') %></th>
-      <th><%= t('sales.lists') %></th>
-      <th><%= t('sales.total_profit') %></th>
       <th><%= t('sales.total_paid') %></th>
+      <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+        <th><%= t('sales.debt') %></th>
+      <% end %>
+      <th><%= t('sales.total_profit') %></th>
+      <th><%= t('sales.lists') %></th>
       <% unless defined?(shrink) %>
         <th><%= t('sales.comment') %></th>
         <th><%= t('sales.sale_date') %></th>
@@ -33,19 +36,22 @@
         <% end %>
         <td><%= sale.buyer.name %></td>
         <td title="<%= sale.payment_type %>" ><%= currency_convert(sale.price_in_usd, sale.total_price) %></td>
-        <td>
-        <% sale.product_sells.each do |ps| %>
-          <span  class="<%= ps.danger_zone ? 'badge-danger' : 'badge' %> ">
-            <%= ps.pack.name %> - <%= num_to_usd ps.total_price %>
-          </span>
+        <td><%= currency_convert(sale.price_in_usd, sale.total_paid) %></td>
+        <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+          <td><%= num_to_usd sale.previous_debt %></td>
         <% end %>
-        </td>
         <% if policy(sale).profit? %>
           <td><%= sale.total_profit.to_f %></td>
         <% else %>
           <td>****</td>
         <% end %>
-        <td><%= currency_convert(sale.price_in_usd, sale.total_paid) %></td>
+        <td>
+          <% sale.product_sells.each do |ps| %>
+            <span  class="<%= ps.danger_zone ? 'badge-danger' : 'badge' %> ">
+              <%= ps.pack.name %> - <%= num_to_usd ps.total_price %>
+            </span>
+          <% end %>
+        </td>
         <% unless defined?(shrink) %>
           <td><%= sale.comment %></td>
           <td><%= strf_datetime sale.created_at %></td>
