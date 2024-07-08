@@ -207,7 +207,7 @@ uz:
     total_debt_label: "Jami qarzi bilan"
     customer_label: "Mijoz"
     product_label: "Tovar"
-    quantity_label: "Soni"
+    quantity_label: "Soni/kv"
     price_label: "Narxi"
     total_label: "Jami"
     total_profit_label: "Jami foyda"

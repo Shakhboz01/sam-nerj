@@ -17,10 +17,16 @@
       <div style='border: 5px solid #6bf56b' id='product-sells-list'>
         <%= render 'product_sells/product_sells', shrink: true, sale: @sale, buyer: @sale.buyer, product_sells: @product_sells, rate: @rate %>
       </div>
+
+      <% if @sales.exists? %>
+        <h3 class='text-center' style='margin-top: 45px'><%= t('sales.history') %></h3>
+      <% end %>
+
       <% @sales.each do |sale| %>
-        <div style='border: 3px solid black; margin-top: 45px'>
+        <div style='border: 3px solid black;'>
           <%= render 'product_sells/product_sells', shrink: true, sale: sale, total_paid: sale.total_paid, datetime: sale.created_at, product_sells: sale.product_sells.includes(:buyer, :pack, :product), rate: @rate %>
         </div>
+        <br/>
       <% end %>
       <br/><p class='text-center'><%= paginate @sales %></p>
     </div>

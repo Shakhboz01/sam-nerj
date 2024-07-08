@@ -23,6 +23,13 @@
   <div class='px-3' style='color: black; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;'>
     <%= simple_form_for(product_sell, remote: true) do |f| %>
       <div class='form-inputs'>
+        <% if ENV.fetch('SHOW_SIZE_CALCULATION', nil).present? %>
+          <div class='row shadow card-body'>
+            <div class='col-sm-4'><%= f.input :width, label: 'Ширина', input_html: { class: 'calc-input' } %></div>
+            <div class='col-sm-4'><%= f.input :height, label: 'Длина', input_html: { class: 'calc-input' } %></div>
+            <div class='col-sm-4'><%= f.input :number_of_sizes, label: 'Количество', input_html: { value: 1, class: 'calc-input' } %></div>
+          </div>
+        <% end %>
         <%= f.error_notification %>
         <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
         <%= f.association :sale, as: :hidden %>
@@ -59,3 +66,22 @@
     <%= render 'product_sells/products_list_select', sale_in_usd: product_sell.sale.price_in_usd, cached: true  %>
   </div>
 <% end %>
+
+<script>
+  $(document).on('turbo:load', function(){
+    function calculateAmount() {
+      var numberOfSizes = parseFloat($("input[name*='number_of_sizes']").val());
+      var width = parseFloat($("input[name*='width']").val());
+      var height = parseFloat($("input[name*='height']").val());
+
+      if (!isNaN(numberOfSizes) && !isNaN(width) && !isNaN(height)) {
+        var amount = numberOfSizes * width * height;
+        $("input[name*='amount']").val(amount);
+      }
+    }
+
+    $(".calc-input").on('input', function() {
+      calculateAmount();
+    });
+  })
+</script>
