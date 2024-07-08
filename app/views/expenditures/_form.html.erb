@@ -6,7 +6,9 @@
     <%= f.association :combination_of_local_product, as: :hidden %>
     <%= f.association :delivery_from_counterparty, as: :hidden %>
     <%= f.input :payment_type, label: t('expenditures.form.select_payment_type'), collection: Expenditure.payment_types.keys.map { |unit| [Expenditure.human_attribute_name("unit.#{unit}"), unit] }, include_blank: false, class: 'form-control' %>
-    <%= f.input :price_in_usd, label: false, as: :hidden, input_html: { checked: false }, class: 'form-control' %>
+    <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+      <%= f.input :price_in_usd, label: false, as: :hidden, input_html: { checked: false }, class: 'form-control' %>
+    <% end %>
     <%= f.input :price, as: :numeric, label: t('expenditures.form.enter_price'), class: 'form-control' %>
     <%= f.input :expenditure_type, label: t('expenditures.form.select_expenditure_type'), collection: Expenditure.expenditure_types.keys.map { |unit| [Expenditure.human_attribute_name("unit.#{unit}"), unit] }, include_blank: false, class: 'form-control' %>
     <%= f.input :comment, label: t('expenditures.form.comment'), input_html: { placeholder: t('expenditures.form.optional') }, class: 'form-control' %>

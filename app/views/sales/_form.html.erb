@@ -18,13 +18,15 @@
   <% end %>
 </div><br/>
 
-<div class='p-3' style='color: black; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;'>
-  <%= simple_form_for(sale) do |f| %>
-      <%= f.input :price_in_usd, label: false, as: :hidden, input_html: {value: !sale.price_in_usd} %>
-      <%= f.button :submit, t('sale.change_currency_button_label'), class: 'btn-warning' %>
-    </div>
-  <% end %>
-</div>
+<% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+  <div class='p-3' style='color: black; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;'>
+    <%= simple_form_for(sale) do |f| %>
+        <%= f.input :price_in_usd, label: false, as: :hidden, input_html: {value: !sale.price_in_usd} %>
+        <%= f.button :submit, t('sale.change_currency_button_label'), class: 'btn-warning' %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
 
 <script>
   document.querySelector('#sale_total_paid').addEventListener('focus', function(e) {

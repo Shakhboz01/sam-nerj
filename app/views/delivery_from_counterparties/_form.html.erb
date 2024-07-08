@@ -4,8 +4,10 @@
     <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
     <%= f.input :status, as: :hidden, input_html: { value: 1 } %>
     <div class='form-inputs'>
-      <%= f.label :price_in_usd, t('delivery_form.price_in_usd') %>
-      <%= f.input :price_in_usd, label: false %>
+      <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+        <%= f.label :price_in_usd, t('delivery_form.price_in_usd') %>
+        <%= f.input :price_in_usd, label: false %>
+      <% end %>
       <% not_disabled = delivery_from_counterparty.persisted? && delivery_from_counterparty.product_entries.empty? %>
       <%= f.input :total_price, label: t('delivery_form.total_price_required'), input_html: { disabled: !not_disabled } %>
       <%= f.input :total_paid, label: t('delivery_form.total_paid'), input_html: {value: 0} %>

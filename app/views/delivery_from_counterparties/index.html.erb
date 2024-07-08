@@ -21,12 +21,14 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th><%= t('delivery_history.in_usd') %></th>
-            <td><%= number_to_currency @delivery_from_counterparties_data.price_in_usd.sum(:total_price) %></td>
-            <td><%= number_to_currency @delivery_from_counterparties_data.price_in_usd.sum(:total_paid) %></td>
-            <td><%= number_to_currency(@delivery_from_counterparties_data.price_in_usd.sum(:total_price) - @delivery_from_counterparties_data.price_in_usd.sum(:total_paid)) %></td>
-          </tr>
+          <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+            <tr>
+              <th><%= t('delivery_history.in_usd') %></th>
+              <td><%= number_to_currency @delivery_from_counterparties_data.price_in_usd.sum(:total_price) %></td>
+              <td><%= number_to_currency @delivery_from_counterparties_data.price_in_usd.sum(:total_paid) %></td>
+              <td><%= number_to_currency(@delivery_from_counterparties_data.price_in_usd.sum(:total_price) - @delivery_from_counterparties_data.price_in_usd.sum(:total_paid)) %></td>
+            </tr>
+          <% end %>
           <tr>
             <th><%= t('delivery_history.in_uzs') %></th>
             <td><%= num_to_usd @delivery_from_counterparties_data.price_in_uzs.sum(:total_price) %></td>

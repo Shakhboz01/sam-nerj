@@ -12,10 +12,14 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <%= link_to t('navigation.delivery_history'), delivery_from_counterparties_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.currency_rate'), currency_rates_path, class: 'dropdown-item' %>
+          <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+            <%= link_to t('navigation.currency_rate'), currency_rates_path, class: 'dropdown-item' %>
+          <% end %>
           <%= link_to t('navigation.monthly_advance'), salaries_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.employees'), users_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.participations'), participations_path, class: 'dropdown-item' %>
+          <% unless ENV.fetch('SHOW_PEREKLICHKA', nil).present? %>
+            <%= link_to t('navigation.participations'), participations_path, class: 'dropdown-item' %>
+          <% end %>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -34,7 +38,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <%= button_to t('navigation.purchase'), default_create_delivery_from_counterparties_path, method: :post, class: 'dropdown-item' %>
           <%= link_to t('navigation.give_monthly_advance'), new_salary_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.add_participation'), new_participation_path, class: 'dropdown-item' %>
+          <% unless ENV.fetch('SHOW_PEREKLICHKA', nil).present? %>
+            <%= link_to t('navigation.add_participation'), new_participation_path, class: 'dropdown-item' %>
+          <% end %>
         </div>
       </li>
       <li class="nav-item">
@@ -62,7 +68,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <%= button_to t('navigation.logout'), destroy_user_session_url, method: :delete, data: { confirm: strip_tags(t('navigation.confirm_logout')) }, class: "nav-link styled-delete-button", style: 'color: black' %>
           <div class="dropdown-divider"></div>
-          <a style= 'color: black' class="nav-link disabled" href="#"><%= num_to_usd(CurrencyRate.last.rate) %>$</a>
+          <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+            <a style= 'color: black' class="nav-link disabled" href="#"><%= num_to_usd(CurrencyRate.last.rate) %>$</a>
+          <% end %>
         </div>
       </li>
       <li class="nav-item ml-auto">

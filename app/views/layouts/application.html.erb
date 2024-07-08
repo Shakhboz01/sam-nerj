@@ -2,7 +2,7 @@
 <html>
   <head>
     <%= javascript_include_tag 'application' %>
-    <title>SAM NERJ</title>
+    <title><%= ENV.fetch('COMPANY_NAME') %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>

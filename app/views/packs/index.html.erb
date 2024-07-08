@@ -45,12 +45,16 @@
       <tr>
         <th><%= t('sklad.total_items') %></th>
         <th><%= t('sklad.total_amount_uzs') %></th>
-        <th><%= t('sklad.total_amount_usd') %></th>
+        <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+          <th><%= t('sklad.total_amount_usd') %></th>
+        <% end %>
       </tr>
       <tr>
         <td><%= @all_packs.sum(:initial_remaining) %></td>
         <td><%= num_to_usd @all_packs.price_in_uzs.sum('initial_remaining * sell_price') %></td>
-        <td><%= number_to_currency @all_packs.price_in_usd.sum('initial_remaining * sell_price') %></td>
+        <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+          <td><%= number_to_currency @all_packs.price_in_usd.sum('initial_remaining * sell_price') %></td>
+        <% end %>
       </tr>
     </table>
   </div>

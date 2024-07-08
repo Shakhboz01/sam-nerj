@@ -18,11 +18,13 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th><%= t('expenditures.in_usd') %></th>
-            <td><%= number_to_currency @expenditures_data.price_in_usd.sum(:price) %></td>
-            <td><%= number_to_currency(@expenditures_data.price_in_usd.sum(:price) - @expenditures_data.price_in_usd.sum(:total_paid)) %></td>
-          </tr>
+          <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+            <tr>
+              <th><%= t('expenditures.in_usd') %></th>
+              <td><%= number_to_currency @expenditures_data.price_in_usd.sum(:price) %></td>
+              <td><%= number_to_currency(@expenditures_data.price_in_usd.sum(:price) - @expenditures_data.price_in_usd.sum(:total_paid)) %></td>
+            </tr>
+          <% end %>
           <tr>
             <th><%= t('expenditures.in_uzs') %></th>
             <td><%= num_to_usd(@expenditures_data.price_in_uzs.sum(:price)) %></td>

@@ -17,7 +17,10 @@
         <%= f.input :initial_remaining, label: t('packs.form.initial_remaining') %>
         <%= f.input :unit, label: t('packs.form.unit'), collection: Pack.units.keys.map { |unit| [Pack.human_attribute_name("unit.#{unit}"), unit] }, include_blank: false, class: 'form-control' %>
 
-        <%= f.input :price_in_usd, label: t('packs.form.price_in_usd'), input_html: { checked: ENV.fetch('PRICE_IN_USD') == 'true' } %>
+        <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+          <%= f.input :price_in_usd, label: t('packs.form.price_in_usd'), input_html: { checked: ENV.fetch('PRICE_IN_USD') == 'true' } %>
+        <% end %>
+
         <%= f.input :sell_price, label: t('packs.form.sell_price') %>
         <%= f.input :buy_price, label: t('packs.form.buy_price') %>
         <%= f.input :image, input_html: { accept: "image/*" }, label: t('packs.form.upload_image') %>
