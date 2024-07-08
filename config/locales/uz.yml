@@ -241,6 +241,8 @@ uz:
       transfer: "Bank orqali"
   sales:
     history: "Sotuvlar tarixi"
+    lists: "Ro'yxat"
+    debt: "Qarzi qoldi"
     print: "printerdan chiqarish"
     overview: "Umumiy ko'rish"
     detailed_view: "Batafsil ko'rish"
