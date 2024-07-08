@@ -1,7 +1,13 @@
 <div class='row'>
   <div class='col-sm-6 main-page-header'>
     <div>
-      <h4 class='text-center'>Mijozlar</h4>
+      <div class='d-flex justify-content-center align-items-center '>
+        <h4 class='text-center mx-1'>Mijozlar </h4>
+        <%= link_to new_buyer_path do %>
+          <i title='yangi mijoz' class="fa-solid fa-user-plus"></i>
+        <% end %>
+      </div>
+
       <input class='form-control' type='text' placeholder='qidirish' id='searchInput'>
       <div class='counterparties-max-height'>
         <%= render 'buyers/buyers', buyers: @buyers, shrink: true %>
@@ -10,7 +16,12 @@
   </div>
   <div class='col-sm-6'>
     <div>
-      <h4 class='text-center'>Yuk beruvchilar</h4>
+      <div class='d-flex justify-content-center align-items-center '>
+        <h4 class='text-center mx-1'>Yuk beruvchilar </h4>
+        <%= link_to new_provider_path do %>
+          <i title='yangi yuk beruvchi' class="fa-solid fa-user-plus"></i>
+        <% end %>
+      </div>
       <div class='counterparties-max-height'>
         <%= render 'providers/providers', providers: @providers, shrink: true %>
       </div>
