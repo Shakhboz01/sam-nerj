@@ -11,12 +11,7 @@
           <%= t('navigation.view') %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to t('navigation.sales_history'), sales_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.delivery_history'), delivery_from_counterparties_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.warehouse'), packs_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.other_expenses'), expenditures_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.suppliers'), providers_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.customers'), buyers_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.currency_rate'), currency_rates_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.monthly_advance'), salaries_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.employees'), users_path, class: 'dropdown-item' %>
@@ -25,21 +20,31 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <%= t('navigation.agents') %>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to t('navigation.suppliers'), providers_path, class: 'dropdown-item' %>
+          <%= link_to t('navigation.customers'), buyers_path, class: 'dropdown-item' %>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <%= t('navigation.actions') %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to t('navigation.sales'), buyers_path, class: 'dropdown-item' %>
           <%= button_to t('navigation.purchase'), default_create_delivery_from_counterparties_path, method: :post, class: 'dropdown-item' %>
-          <%= link_to t('navigation.expense'), new_expenditure_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.add_supplier'), new_provider_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.add_customer'), new_buyer_path, class: 'dropdown-item' %>
-          <%= link_to t('navigation.add_product'), new_pack_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.give_monthly_advance'), new_salary_path, class: 'dropdown-item' %>
           <%= link_to t('navigation.add_participation'), new_participation_path, class: 'dropdown-item' %>
         </div>
       </li>
       <li class="nav-item">
         <%= link_to t('navigation.warehouse'), packs_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to t('navigation.sales_history'), sales_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to t('navigation.other_expenses'), expenditures_path, class: 'nav-link' %>
       </li>
       <% if %w[manager accountant].include?(current_user.role) %>
         <li class="nav-item">
@@ -50,9 +55,6 @@
   </div>
   <ul class="text-center navbar-nav ml-auto">
     <% if user_signed_in? %>
-      <li class="nav-item" style='color: white'>
-        <%= link_to "#{t('navigation.currency_rate')}: #{CurrencyRate.last.rate}", currency_rates_path, class: 'nav-link' %>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <%= current_user.name&.capitalize %>

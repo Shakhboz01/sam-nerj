@@ -3,6 +3,7 @@
  *= require_tree .
  *= require_self
 */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "jquery-ui/datepicker";
 .categories span {
   padding: 5px 10px;
@@ -11,6 +12,22 @@
   font-weight: bold;
   cursor: pointer;
 }
+.badge {
+  padding: 4px 6px;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #2105b0;
+  color: white;
+  font-size: 12px
+}
+.badge-danger{
+  padding: 4px 6px;
+  border-radius: 8px;
+  background: red;
+  color: white;
+  font-size: 12px
+}
+
 .pack-image img{
   width: 50px;
   height: 50px;

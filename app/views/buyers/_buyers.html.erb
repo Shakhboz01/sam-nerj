@@ -10,6 +10,7 @@
         <th><%= t('buyers.index.phone_number') %></th>
         <th><%= t('buyers.index.comment') %></th>
       <% end %>
+      <th></th>
     </tr>
   </thead>
   <tbody style='font-size: large' id='buyers-list'>
@@ -19,14 +20,14 @@
           <td><%= buyer.id %></td>
         <% end %>
         <td>
-          <%= button_to buyer.name, default_create_sales_path(buyer_id: buyer.id), method: :post, style: 'background: none; cursor: pointer' %>
+          <%= buyer.name %>
           <% if buyer.image.persisted? %>
             <%= link_to image_tag(buyer.image, style: 'width: 60px; height:55px; object-fit:contain'), buyer.image %>
           <% end %>
         </td>
         <td>
-          <%= link_to num_to_usd(buyer.calculate_debt_in_uzs), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: false}), method: :get, style: "color: #{ (buyer.calculate_debt_in_uzs < 0) ? 'red' : 'blue' }; font-size: large" %> |
-          <%= link_to number_to_currency(buyer.calculate_debt_in_usd), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: true}), method: :get, style: "color: #{ (buyer.calculate_debt_in_uzs < 0) ? 'red' : 'blue' }; font-size: large" %>
+          <%= link_to num_to_usd(buyer.calculate_debt_in_uzs), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: false}), method: :get, class: "#{ (buyer.calculate_debt_in_uzs < 0) ? 'badge-danger' : 'badge' }" %>
+          <%= link_to number_to_currency(buyer.calculate_debt_in_usd), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: true}), method: :get, class: "#{ (buyer.calculate_debt_in_uzs < 0) ? 'badge-danger' : 'badge' }" %>
         </td>
         <% unless defined?(shrink) %>
           <td><%= buyer.phone_number %></td>
@@ -40,6 +41,7 @@
             <% end %>
           </td>
         <% end %>
+        <td><%= button_to t('buyers.index.perform_sale'), default_create_sales_path(buyer_id: buyer.id), method: :post, class: 'btn btn-success' %></td>
       </tr>
     <% end %>
   </tbody>

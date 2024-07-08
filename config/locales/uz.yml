@@ -9,6 +9,7 @@ uz:
       edit: "Ozgartirish"
       deactivate: "Деактивировать"
       activate: "Активировать"
+      perform_sale: 'Sotuv amalga oshirish'
     filter:
       search_icon_title: "Qidirish"
       name_contains: "Ism o'z ichiga oladi:"
@@ -69,14 +70,6 @@ uz:
     remaining_amount: "Yana to'lashimiz lozim bo'lgan summa"
     in_usd: "Dollarda"
     in_uzs: "So'mda"
-  expenditures:
-    id: "ID"
-    price: "Narxi"
-    payment_type: "To'lov turi"
-    expenditure_type: "Xarajat turi"
-    comment: "Komment"
-    date: "Sana"
-    view_sales: "Qaysi sotishlardan pul olinganini ko'rish"
   filter:
     created_at_from: "Boshlanish sanasi:"
     created_at_to: "Gacha:"
@@ -86,6 +79,13 @@ uz:
     search: "Qidirish"
     cancel: "Bekor qilish"
   expenditures:
+    id: "ID"
+    price: "Narxi"
+    payment_type: "To'lov turi"
+    expenditure_type: "Xarajat turi"
+    comment: "Komment"
+    date: "Sana"
+    view_sales: "Qaysi sotishlardan pul olinganini ko'rish"
     form:
       select_payment_type: "To'lov turini tanlang"
       in_usd: "Dollarda"
@@ -290,6 +290,7 @@ uz:
     search: "Qidirish"
     reset: "Bekor qilish"
   navigation:
+    agents: Kontragent
     company_name: "Kompaniya nomi"
     view: "Ko'rish"
     sales_history: "Sotuvlar tarixi"

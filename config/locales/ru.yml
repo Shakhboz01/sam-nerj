@@ -1,6 +1,7 @@
 ru:
   buyers:
     index:
+      perform_sale: 'оформить продажу'
       id: "ID"
       name: "Имя"
       debt: "Долг"
@@ -69,14 +70,6 @@ ru:
     remaining_amount: "Остаток к оплате"
     in_usd: "В долларах"
     in_uzs: "В сумах"
-  expenditures:
-    id: "ID"
-    price: "Цена"
-    payment_type: "Тип оплаты"
-    expenditure_type: "Тип расхода"
-    comment: "Комментарий"
-    date: "Дата"
-    view_sales: "Посмотреть от каких продаж взяты деньги"
   filter:
     created_at_from: "Начальная дата:"
     created_at_to: "Конечная дата:"
@@ -86,6 +79,13 @@ ru:
     search: "Поиск"
     cancel: "Отмена"
   expenditures:
+    id: "ID"
+    price: "Цена"
+    payment_type: "Тип оплаты"
+    expenditure_type: "Тип расхода"
+    comment: "Комментарий"
+    date: "Дата"
+    view_sales: "Посмотреть от каких продаж взяты деньги"
     form:
       select_payment_type: "Выберите тип оплаты"
       in_usd: "В долларах"
@@ -289,6 +289,7 @@ ru:
     search: "Поиск"
     reset: "Сброс"
   navigation:
+    agents: Контрагенты
     company_name: "Название компании"
     view: "Просмотр"
     sales_history: "История продаж"
@@ -311,7 +312,7 @@ ru:
     add_participation: "Добавить перекличку"
     participations: "переклички"
     admin: "Администрирование"
-    currency_rate: "Курс валюты"
+    currency_rate: "Курс"
     logout: "Выйти"
     confirm_logout: "Вы уверены?"
     login: "Войти"

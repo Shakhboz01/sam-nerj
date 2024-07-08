@@ -20,6 +20,8 @@
       <%= render 'sale_from_local_services/filter_form', q: @q, url: request.path %>
       <%= render 'sales', sales: @sales %>
       <%= paginate @sales %>
+      <br/>
+      <hr>
       <table class='table table-bordered'>
         <thead class='table-dark'>
           <tr>
