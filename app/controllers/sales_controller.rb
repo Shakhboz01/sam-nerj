@@ -31,7 +31,7 @@ class SalesController < ApplicationController
     @rate = CurrencyRate.last.rate
     @sales = @sale.buyer.sales.where.not(id: @sale.id).order(created_at: :desc).page(params[:page]).per(7)
     @packs = Pack.includes(:product_category).where(active: true).order(:name)
-    @packs = @packs.positive_remaining if ENV.fetch('HIDE_NEGATIVE_REMAININGS', nil).present?
+    @packs = @packs.positive_remaining if ENV.fetch('HIDE_NEGATIVE_REMAININGS', nil) == 'true'
   end
 
   # GET /sales/new
