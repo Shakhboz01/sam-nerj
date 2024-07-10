@@ -45,7 +45,7 @@
         <% end %>
         <td>
           <% unless defined?(shrink) %>
-            <%= cdlink_to t('product_entries.edit_sell_price'), edit_product_entry_path(product_entry), 'fa-edit' %>
+            <%= clink_to t('product_entries.edit_sell_price'), edit_product_entry_path(product_entry), 'fa-edit' %>
           <% end %>
           <% if defined?(deletable) %>
             <%= cdlink_to t('product_entries.delete'), product_entry %>
