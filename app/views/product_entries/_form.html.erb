@@ -5,7 +5,7 @@
     <%= f.association :delivery_from_counterparty, as: :hidden %>
     <%= f.input :amount_sold, as: :hidden %>
     <div class="form-inputs">
-      <%= f.association :pack, label: t('product_entries.select_product'), collection: Pack.order('LOWER(name) ASC').pluck(:name, :id, :code), include_blank: true, selected: params.dig(:pack_id).present? ? params.dig(:pack_id) : nil, input_html: { id: 'pack-select' } %>
+      <%= f.association :pack, label: t('product_entries.select_product'), collection: Pack.order('LOWER(name) ASC').pluck(:name, :id, :code), include_blank: true, selected: params.dig(:pack_id).present? ? params.dig(:pack_id) : product_entry.pack_id, input_html: { id: 'pack-select' } %>
       <%= link_to new_pack_path(delivery_id: params[:id]) do %>
         <div><%= t('product_entries.search_by_code') %> &#128070;</div><br>
       <% end %>
