@@ -62,7 +62,7 @@ class SalesController < ApplicationController
   def update
     currency_was_in_usd = @sale.price_in_usd
     if @sale.update(sale_params.merge(status: sale_params[:status].to_i))
-      handle_redirect(currency_was_in_usd, @sale.price_in_usd)
+      handle_redirect(currency_was_in_usd, @sale.price_in_usd, @sale.id)
     else
       redirect_to request.referrer, notice: @sale.errors.messages.values
     end
@@ -125,12 +125,16 @@ class SalesController < ApplicationController
 
   private
 
-  def handle_redirect(previous, current)
+  def handle_redirect(previous, current, sale_id)
     if previous != current
       # It means, currency is changed
       redirect_to request.referrer, notice: "Valyuta o'zgartirildi"
     else
-      redirect_to html_view_sale_url(@sale)
+      if ENV.fetch('SHOW_SIZE_CALCULATION', nil).present?
+        redirect_to "http://localhost:4000/print/#{sale_id}", allow_other_host: true
+      else
+        redirect_to html_view_sale_url(@sale)
+      end
     end
   end
 

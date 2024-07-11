@@ -95,4 +95,10 @@ Rails.application.routes.draw do
     get :new_user_form, on: :collection
     post :auto_user_creation, on: :collection
   end
+
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :sales, only: %i[show]
+    end
+  end
 end

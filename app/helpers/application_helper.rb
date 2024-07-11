@@ -7,6 +7,12 @@ module ApplicationHelper
     end
   end
 
+  def translit(text)
+    return '' if text.nil?
+
+    Translit.convert(text, :english)
+  end
+
   def clink_to(title, link, image_name, method = :get)
     styled_image = raw("<i class=\"fa fa-fw #{image_name}\"></i>")
     if method == :get
