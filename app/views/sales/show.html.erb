@@ -3,7 +3,7 @@
   <h3 class='m-1'>
     <%= @sale.buyer.name.capitalize %>
     <% if @sale.product_sells.empty? %>
-      | Долг: <%= num_to_usd @sale.buyer.calculate_debt_in_uzs %> <%= number_to_currency @sale.buyer.calculate_debt_in_usd %>
+      | Долг: <%= num_to_usd @sale.buyer.calculate_debt_in_uzs %>
     <% end %>
   </h3>
   <div class='row'>

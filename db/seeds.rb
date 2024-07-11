@@ -1,6 +1,6 @@
 CurrencyRate.create(rate: 12400.00, finished_at: nil)
-Provider.create(name: "Клиент", weight: 1, debt_in_usd: 0, debt_in_uzs:0)
-Buyer.create(name: "Клиент", weight: 1, debt_in_usd: 0, debt_in_uzs:0)
+Provider.create(name: "Клиент", weight: 1, debt_in_usd: '', debt_in_uzs: '')
+Buyer.create(name: "Клиент", weight: 1, debt_in_usd: '', debt_in_uzs: '')
 User.create(name: 'admin', gmail: 'admin@gmail.com', password: 111111, role: 0)
 Color.create(name: 'Белый', hex: '#FFFFFF')
 Color.create(name: 'Чёрный', hex: '#000000')
