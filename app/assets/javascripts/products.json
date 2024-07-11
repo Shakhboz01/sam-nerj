@@ -1,1850 +1,1536 @@
 [
-  {
-  "name": "Отвод 19 мм ",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 92
-  },
-  {
-  "name": "Отвод 25 мм",
-  "unit": "шт",
-  "buy_price": 0.23,
-  "amount": 314
-  },
-  {
-  "name": "Отвод 32 мм",
-  "unit": "шт",
-  "buy_price": 0.26,
-  "amount": 183
-  },
-  {
-  "name": "Отвод 38 мм",
-  "unit": "шт",
-  "buy_price": 0.29,
-  "amount": 173
-  },
-  {
-  "name": "Отвод 38 мм",
-  "unit": "шт",
-  "buy_price": 1.6,
-  "amount": 5
-  },
-  {
-  "name": "Отвод 51 (2,5) стенка ",
-  "unit": "шт",
-  "buy_price": 2.06,
-  "amount": 17
-  },
-  {
-  "name": "Отвод 51 (2,5) стенка 304",
-  "unit": "шт",
-  "buy_price": 2.19,
-  "amount": 90
-  },
-  {
-  "name": "Отвод 51 голд ",
-  "unit": "шт",
-  "buy_price": 0.98,
-  "amount": 20
-  },
-  {
-  "name": "Отвод 51 мм",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 802
-  },
-  {
-  "name": "Отвод 51 стенка 1,2 ",
-  "unit": "шт",
-  "buy_price": 1.67,
-  "amount": 4
-  },
-  {
-  "name": "Отвод 51 Т",
-  "unit": "шт",
-  "buy_price": 0.75,
-  "amount": 50
-  },
-  {
-  "name": "Отвод 63 мм",
-  "unit": "шт",
-  "buy_price": 1.35,
-  "amount": 54
-  },
-  {
-  "name": "Отвод 63 парагин ",
-  "unit": "шт",
-  "buy_price": 4.68,
-  "amount": 33
-  },
-  {
-  "name": "Отвод 76 мм",
-  "unit": "шт",
-  "buy_price": 1.68,
-  "amount": 30
-  },
-  {
-  "name": "Отвод 77*42",
-  "unit": "шт",
-  "buy_price": 3.7,
-  "amount": 2
-  },
-  {
-  "name": "Отвод 89  мм",
-  "unit": "шт",
-  "buy_price": 3.98,
-  "amount": 24
-  },
-  {
-  "name": "Отвод кв 25*25",
-  "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 2
-  },
-  {
-  "name": "Отвод кв 30*30",
-  "unit": "шт",
-  "buy_price": 1.3,
-  "amount": 2
-  },
-  {
-  "name": "Отвод Регулировочный 51 Т",
-  "unit": "шт",
-  "buy_price": 5,
-  "amount": 10
-  },
-  {
-  "name": "Отвод Трансформер 51 мм",
-  "unit": "шт",
-  "buy_price": 1.6,
-  "amount": 36
-  },
-  {
-  "name": "Перефаратор ",
-  "unit": "шт",
-  "buy_price": 70,
-  "amount": 1
-  },
-  {
-  "name": "Перефаратор кавут ",
-  "unit": "шт",
-  "buy_price": 125.8,
-  "amount": 1
-  },
-  {
-  "name": "Переходник 102*89",
-  "unit": "шт",
-  "buy_price": 6.03,
-  "amount": 20
-  },
-  {
-  "name": "Переходник 51*63",
-  "unit": "шт",
-  "buy_price": 2.96,
-  "amount": 20
-  },
-  {
-  "name": "Переходник 63*76",
-  "unit": "шт",
-  "buy_price": 3.34,
-  "amount": 22
-  },
-  {
-  "name": "Переходник 636 PVC",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 39
-  },
-  {
-  "name": "Переходник 76*51",
-  "unit": "шт",
-  "buy_price": 2.81,
-  "amount": 30
-  },
-  {
-  "name": "Переходник 76*89",
-  "unit": "шт",
-  "buy_price": 5.32,
-  "amount": 20
-  },
-  {
-  "name": "Пероча 10",
-  "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 3
-  },
-  {
-  "name": "Пероча 12",
-  "unit": "шт",
-  "buy_price": 1.4,
-  "amount": 10
-  },
-  {
-  "name": "Пероча 6 мм ",
-  "unit": "шт",
-  "buy_price": 0.7,
-  "amount": 40
-  },
-  {
-  "name": "Петля 3*80*1,5 304",
-  "unit": "шт",
-  "buy_price": 2.5,
-  "amount": 1
-  },
-  {
-  "name": "Питак 3*2 ",
-  "unit": "шт",
-  "buy_price": 0.1,
-  "amount": 38
-  },
-  {
-  "name": "Питак 4*2",
-  "unit": "шт",
-  "buy_price": 0.1,
-  "amount": 24
-  },
-  {
-  "name": "Питак 51",
-  "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 20
-  },
-  {
-  "name": "Питак 51 голд ",
-  "unit": "шт",
-  "buy_price": 0.83,
-  "amount": 54
-  },
-  {
-  "name": "Питак 51 прямой",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 9
-  },
-  {
-  "name": "Питак анкер панжара ",
-  "unit": "шт",
-  "buy_price": 0.15,
-  "amount": 26
-  },
-  {
-  "name": "Питак сфера 30*8",
-  "unit": "шт",
-  "buy_price": 0.17,
-  "amount": 300
-  },
-  {
-  "name": "Питак Сфера 32 мм",
-  "unit": "шт",
-  "buy_price": 0.11,
-  "amount": 471
-  },
-  {
-  "name": "Питак Сфера 38 мм",
-  "unit": "шт",
-  "buy_price": 0.13,
-  "amount": 605
-  },
-  {
-  "name": "Питак сфера 51 мм ",
-  "unit": "шт",
-  "buy_price": 0.1,
-  "amount": 1821
-  },
-  {
-  "name": "Питак сфера 51*19",
-  "unit": "шт",
-  "buy_price": 0.18,
-  "amount": 755
-  },
-  {
-  "name": "Питак Сфера 51*19 мм",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 144
-  },
-  {
-  "name": "Питак Сфера 51*25 мм",
-  "unit": "шт",
-  "buy_price": 0.32,
-  "amount": 38
-  },
-  {
-  "name": "Питак Сфера 51*25 мм",
-  "unit": "шт",
-  "buy_price": 0.25,
-  "amount": 445
-  },
-  {
-  "name": "Питак Сфера 51*25 мм",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 168
-  },
-  {
-  "name": "Питак сфера 54*10",
-  "unit": "шт",
-  "buy_price": 0.23,
-  "amount": 1000
-  },
-  {
-  "name": "Питак сфера 54*10",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 1000
-  },
-  {
-  "name": "Питак Сфера 76 мм",
-  "unit": "шт",
-  "buy_price": 0.63,
-  "amount": 30
-  },
-  {
-  "name": "Питак Сфера 76 мм",
-  "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 32
-  },
-  {
-  "name": "Питак Сфера 89 мм",
-  "unit": "шт",
-  "buy_price": 0.87,
-  "amount": 30
-  },
-  {
-  "name": "Питак Сфера 89 мм",
-  "unit": "шт",
-  "buy_price": 0.92,
-  "amount": 8
-  },
-  {
-  "name": "Подголовник ",
-  "unit": "шт",
-  "buy_price": 20,
-  "amount": 2
-  },
-  {
-  "name": "Подношка",
-  "unit": "шт",
-  "buy_price": 10,
-  "amount": 2
-  },
-  {
-  "name": "Подшибник болгарка 607",
-  "unit": "шт",
-  "buy_price": 3.3,
-  "amount": 4
-  },
-  {
-  "name": "Подшибник болгарка 608",
-  "unit": "шт",
-  "buy_price": 3.3,
-  "amount": 5
-  },
-  {
-  "name": "Полировка наждакча 320",
-  "unit": "шт",
-  "buy_price": 0.33,
-  "amount": 1417
-  },
-  {
-  "name": "Полировка наждакча 80",
-  "unit": "шт",
-  "buy_price": 0.37,
-  "amount": 35
-  },
-  {
-  "name": "Полировка наждакча 80",
-  "unit": "шт",
-  "buy_price": 0.33,
-  "amount": 400
-  },
-  {
-  "name": "Полировка наматча",
-  "unit": "шт",
-  "buy_price": 0.33,
-  "amount": 1748
-  },
-  {
-  "name": "Постагон",
-  "unit": "шт",
-  "buy_price": 6,
-  "amount": 191.75
-  },
-  {
-  "name": "Постагон сафед ",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 50
-  },
-  {
-  "name": "Постагон сафед ",
-  "unit": "шт",
-  "buy_price": 2.43,
-  "amount": 19
-  },
-  {
-  "name": "Профиль 2*1 (07) Тайлок",
-  "unit": "шт",
-  "buy_price": 4.62,
-  "amount": 20
-  },
-  {
-  "name": "Пруток 10 мм",
-  "unit": "шт",
-  "buy_price": 7.91,
-  "amount": 33
-  },
-  {
-  "name": "Пруток 12 мм",
-  "unit": "шт",
-  "buy_price": 9.37,
-  "amount": 22
-  },
-  {
-  "name": "Пруток 4 мм",
-  "unit": "шт",
-  "buy_price": 1.79,
-  "amount": 51.63
-  },
-  {
-  "name": "Пруток 6 мм",
-  "unit": "шт",
-  "buy_price": 2.78,
-  "amount": 54
-  },
-  {
-  "name": "Пруток 8 мм",
-  "unit": "шт",
-  "buy_price": 4.97,
-  "amount": 46
-  },
-  {
-  "name": "Расход ",
-  "unit": "шт",
-  "buy_price": 1,
-  "amount": 4345.28
-  },
-  {
-  "name": "Регистр из нержавейки голд ",
-  "unit": "шт",
-  "buy_price": 500,
-  "amount": 1
-  },
-  {
-  "name": "Редуктор аргон",
-  "unit": "шт",
-  "buy_price": 13,
-  "amount": 3
-  },
-  {
-  "name": "Редуктор аргон",
-  "unit": "шт",
-  "buy_price": 20,
-  "amount": 3
-  },
-  {
-  "name": "Резбичка 15",
-  "unit": "шт",
-  "buy_price": 0.25,
-  "amount": 377
-  },
-  {
-  "name": "Резбичка 16 2 тарафа ",
-  "unit": "шт",
-  "buy_price": 3.4,
-  "amount": 2
-  },
-  {
-  "name": "Резбичка 27",
-  "unit": "шт",
-  "buy_price": 1.23,
-  "amount": 22
-  },
-  {
-  "name": "Резбичка 27",
-  "unit": "шт",
-  "buy_price": 0.96,
-  "amount": 20
-  },
-  {
-  "name": "Резбичка 32",
-  "unit": "шт",
-  "buy_price": 1.38,
-  "amount": 30
-  },
-  {
-  "name": "Резбичка 32",
-  "unit": "шт",
-  "buy_price": 1.52,
-  "amount": 36
-  },
-  {
-  "name": "Резбичка 38 ",
-  "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 51
-  },
-  {
-  "name": "Резбичка 48",
-  "unit": "шт",
-  "buy_price": 2.15,
-  "amount": 5
-  },
-  {
-  "name": "Резбичка 51",
-  "unit": "шт",
-  "buy_price": 1.53,
-  "amount": 130
-  },
-  {
-  "name": "Резва 32",
-  "unit": "шт",
-  "buy_price": 1.38,
-  "amount": 8
-  },
-  {
-  "name": "Резва 60",
-  "unit": "шт",
-  "buy_price": 2.76,
-  "amount": 15
-  },
-  {
-  "name": "Резва 60*0,3*50",
-  "unit": "шт",
-  "buy_price": 2.76,
-  "amount": 2
-  },
-  {
-  "name": "Резвичка 20",
-  "unit": "шт",
-  "buy_price": 0.35,
-  "amount": 71
-  },
-  {
-  "name": "Резвичка 20 мм",
-  "unit": "шт",
-  "buy_price": 0.55,
-  "amount": 166
-  },
-  {
-  "name": "Резвичка 25 мм",
-  "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 606
-  },
-  {
-  "name": "Резвичка 25 мм ",
-  "unit": "шт",
-  "buy_price": 0.95,
-  "amount": 23
-  },
-  {
-  "name": "Резец 1 ",
-  "unit": "шт",
-  "buy_price": 1.47,
-  "amount": 9
-  },
-  {
-  "name": "Резец 2",
-  "unit": "шт",
-  "buy_price": 1.63,
-  "amount": 5
-  },
-  {
-  "name": "Резинка шайба ",
-  "unit": "шт",
-  "buy_price": 0.1,
-  "amount": 1000
-  },
-  {
-  "name": "Ролик байрок ",
-  "unit": "шт",
-  "buy_price": 4.16,
-  "amount": 69
-  },
-  {
-  "name": "Ролик байрок 201",
-  "unit": "шт",
-  "buy_price": 10.88,
-  "amount": 5
-  },
-  {
-  "name": "Ролик балонча без тормоз",
-  "unit": "шт",
-  "buy_price": 2.35,
-  "amount": 4
-  },
-  {
-  "name": "Ролик балонча тормоз",
-  "unit": "шт",
-  "buy_price": 2.74,
-  "amount": 6
-  },
-  {
-  "name": "Ролик без тормоз",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 57
-  },
-  {
-  "name": "Ролик без тормоз",
-  "unit": "шт",
-  "buy_price": 0.55,
-  "amount": 78
-  },
-  {
-  "name": "Ролик мебельный ",
-  "unit": "шт",
-  "buy_price": 1,
-  "amount": 4
-  },
-  {
-  "name": "Ролик тормоздор",
-  "unit": "шт",
-  "buy_price": 0.75,
-  "amount": 119
-  },
-  {
-  "name": "Ручкача",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 36
-  },
-  {
-  "name": "Сарик тусик ограждений ",
-  "unit": "шт",
-  "buy_price": 20,
-  "amount": 5
-  },
-  {
-  "name": "Сауна Печ ",
-  "unit": "шт",
-  "buy_price": 350,
-  "amount": 2
-  },
-  {
-  "name": "Сверло 10,5",
-  "unit": "шт",
-  "buy_price": 1.92,
-  "amount": 10
-  },
-  {
-  "name": "Сверло 11 ",
-  "unit": "шт",
-  "buy_price": 2.2,
-  "amount": 5
-  },
-  {
-  "name": "Сверло 12",
-  "unit": "шт",
-  "buy_price": 2.8,
-  "amount": 5
-  },
-  {
-  "name": "Сверло 13",
-  "unit": "шт",
-  "buy_price": 3,
-  "amount": 5
-  },
-  {
-  "name": "Сверло 13,5",
-  "unit": "шт",
-  "buy_price": 3.5,
-  "amount": 5
-  },
-  {
-  "name": "Сверло 3",
-  "unit": "шт",
-  "buy_price": 0.19,
-  "amount": 20
-  },
-  {
-  "name": "Сверло 5 ",
-  "unit": "шт",
-  "buy_price": 0.41,
-  "amount": 20
-  },
-  {
-  "name": "Сверло 6 ",
-  "unit": "шт",
-  "buy_price": 0.6,
-  "amount": 20
-  },
-  {
-  "name": "Сверло 6,2",
-  "unit": "шт",
-  "buy_price": 0.7,
-  "amount": 10
-  },
-  {
-  "name": "Сверло 6,5",
-  "unit": "шт",
-  "buy_price": 0.72,
-  "amount": 10
-  },
-  {
-  "name": "Сверло 6,8",
-  "unit": "шт",
-  "buy_price": 0.85,
-  "amount": 20
-  },
-  {
-  "name": "Сверло 7 ",
-  "unit": "шт",
-  "buy_price": 0.9,
-  "amount": 10
-  },
-  {
-  "name": "Сверло 8,5",
-  "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 10
-  },
-  {
-  "name": "Сверло 9 ",
-  "unit": "шт",
-  "buy_price": 1.3,
-  "amount": 10
-  },
-  {
-  "name": "Серыйча",
-  "unit": "шт",
-  "buy_price": 0.33,
-  "amount": 1039
-  },
-  {
-  "name": "Сими кемпомат 0,8",
-  "unit": "шт",
-  "buy_price": 60.35,
-  "amount": 2
-  },
-  {
-  "name": "Сими кемпомат 1,0 ",
-  "unit": "шт",
-  "buy_price": 60.35,
-  "amount": 3
-  },
-  {
-  "name": "Сими кемпомат рулон 0,8",
-  "unit": "кг",
-  "buy_price": 60,
-  "amount": 10
-  },
-  {
-  "name": "Сими кемпомат рулон 0,8",
-  "unit": "шт",
-  "buy_price": 50,
-  "amount": 3
-  },
-  {
-  "name": "Сими кемпомат рулон 1,0",
-  "unit": "кг",
-  "buy_price": 60,
-  "amount": 1
-  },
-  {
-  "name": "Сими кемпомат рулон 1,0",
-  "unit": "шт",
-  "buy_price": 50,
-  "amount": 1
-  },
-  {
-  "name": "Симли гул 4,5*66*165",
-  "unit": "шт",
-  "buy_price": 1.6,
-  "amount": 30
-  },
-  {
-  "name": "Соеденитель 32*1,5",
-  "unit": "шт",
-  "buy_price": 1.7,
-  "amount": 2
-  },
-  {
-  "name": "Соеденитель 38*1,5",
-  "unit": "шт",
-  "buy_price": 2.5,
-  "amount": 2
-  },
-  {
-  "name": "Соеденитель 51*1,5",
-  "unit": "шт",
-  "buy_price": 2.7,
-  "amount": 2
-  },
-  {
-  "name": "Соединитель 25*1,5",
-  "unit": "шт",
-  "buy_price": 1.5,
-  "amount": 2
-  },
-  {
-  "name": "Стежной",
-  "unit": "шт",
-  "buy_price": 0.02,
-  "amount": 1000
-  },
-  {
-  "name": "Стекло-дер-для-Профил",
-  "unit": "шт",
-  "buy_price": 1.26,
-  "amount": 2191
-  },
-  {
-  "name": "Стекло-дер-для-Трубы",
-  "unit": "шт",
-  "buy_price": 1.26,
-  "amount": 411
-  },
-  {
-  "name": "Стеклодержатель 304 профиль",
-  "unit": "шт",
-  "buy_price": 10.18,
-  "amount": 22
-  },
-  {
-  "name": "Стеклодержатель алюмин ",
-  "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 56
-  },
-  {
-  "name": "Стеклодержатель тугма 304 38*30*8",
-  "unit": "шт",
-  "buy_price": 4.45,
-  "amount": 2
-  },
-  {
-  "name": "Стеклодержатель тугма 304 50*8*8",
-  "unit": "шт",
-  "buy_price": 3.5,
-  "amount": 2
-  },
-  {
-  "name": "Стеклодержатель тугма 35*25*6 304",
-  "unit": "шт",
-  "buy_price": 5,
-  "amount": 2
-  },
-  {
-  "name": "Стиковка Тексталит (PVC)",
-  "unit": "шт",
-  "buy_price": 1.17,
-  "amount": 210
-  },
-  {
-  "name": "Стойка Малика ",
-  "unit": "шт",
-  "buy_price": 54.15,
-  "amount": 2
-  },
-  {
-  "name": "Стойка таййор 5*850",
-  "unit": "шт",
-  "buy_price": 18.34,
-  "amount": 20
-  },
-  {
-  "name": "Стойка хрусталь 162-73   304",
-  "unit": "шт",
-  "buy_price": 100,
-  "amount": 2
-  },
-  {
-  "name": "Сушилка 60 см ",
-  "unit": "шт",
-  "buy_price": 9.5,
-  "amount": 8
-  },
-  {
-  "name": "Сушилка 70 см ",
-  "unit": "шт",
-  "buy_price": 10.5,
-  "amount": 6
-  },
-  {
-  "name": "Сушилка 80 см ",
-  "unit": "шт",
-  "buy_price": 11.5,
-  "amount": 5
-  },
-  {
-  "name": "Сушилка 90 см ",
-  "unit": "шт",
-  "buy_price": 10,
-  "amount": 7
-  },
-  {
-  "name": "Сушилка нестандарт 50*80 см ",
-  "unit": "шт",
-  "buy_price": 67.5,
-  "amount": 1
-  },
-  {
-  "name": "Сушилка Ношкеша Чашкеш 10*51 мм",
-  "unit": "шт",
-  "buy_price": 0.15,
-  "amount": 180
-  },
-  {
-  "name": "Сушилка Посуда 60 см",
-  "unit": "шт",
-  "buy_price": 10,
-  "amount": 2
-  },
-  {
-  "name": "Сушилка Посуда 80 см",
-  "unit": "шт",
-  "buy_price": 12.75,
-  "amount": 4
-  },
-  {
-  "name": "Сушилка Посуда 80 см",
-  "unit": "шт",
-  "buy_price": 14.45,
-  "amount": 2
-  },
-  {
-  "name": "Сушилка Посуда 80 см",
-  "unit": "шт",
-  "buy_price": 14.62,
-  "amount": 2
-  },
-  {
-  "name": "Сушилка сетка 60 см ",
-  "unit": "шт",
-  "buy_price": 7,
-  "amount": 5
-  },
-  {
-  "name": "Сфера Донишка 60",
-  "unit": "шт",
-  "buy_price": 140,
-  "amount": 1
-  },
-  {
-  "name": "Сфера Донишка майда 600 мм ",
-  "unit": "шт",
-  "buy_price": 140,
-  "amount": 1
-  },
-  {
-  "name": "Тайота гул ",
-  "unit": "шт",
-  "buy_price": 0.6,
-  "amount": 4
-  },
-  {
-  "name": "Танга 25*1,0",
-  "unit": "шт",
-  "buy_price": 0.06,
-  "amount": 710
-  },
-  {
-  "name": "Тангача 3 мм ",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 500
-  },
-  {
-  "name": "Тангача 6 мм ",
-  "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 100
-  },
-  {
-  "name": "Таннавча ",
-  "unit": "метр",
-  "buy_price": 4.2,
-  "amount": 11.07
-  },
-  {
-  "name": "Тексталит PVCф (636-013)",
-  "unit": "шт",
-  "buy_price": 22,
-  "amount": 27.5
-  },
-  {
-  "name": "Тексталит молочный ",
-  "unit": "шт",
-  "buy_price": 24,
-  "amount": 20
-  },
-  {
-  "name": "Тексталит сафед",
-  "unit": "шт",
-  "buy_price": 22,
-  "amount": 18
-  },
-  {
-  "name": "Тексталит сафед ",
-  "unit": "шт",
-  "buy_price": 24,
-  "amount": 15.25
-  },
-  {
-  "name": "Тексталит сафед круглый ",
-  "unit": "шт",
-  "buy_price": 24,
-  "amount": 18
-  },
-  {
-  "name": "Тексталит сийо",
-  "unit": "шт",
-  "buy_price": 22,
-  "amount": 36
-  },
-  {
-  "name": "Тексталит сийо ",
-  "unit": "шт",
-  "buy_price": 24,
-  "amount": 39.475
-  },
-  {
-  "name": "Терма гул голд ",
-  "unit": "шт",
-  "buy_price": 4.6,
-  "amount": 1
-  },
-  {
-  "name": "Терма гул симли гул 2 лик ",
-  "unit": "шт",
-  "buy_price": 5.5,
-  "amount": 1
-  },
-  {
-  "name": "Терма шайба ",
-  "unit": "шт",
-  "buy_price": 0.12,
-  "amount": 1000
-  },
-  {
-  "name": "Тешук танга 51*19",
-  "unit": "шт",
-  "buy_price": 0.22,
-  "amount": 200
-  },
-  {
-  "name": "Трансформер 16 мм",
-  "unit": "шт",
-  "buy_price": 0.77,
-  "amount": 148
-  },
-  {
-  "name": "Трансформер 16 мм голд",
-  "unit": "шт",
-  "buy_price": 1,
-  "amount": 107
-  },
-  {
-  "name": "Трансформер 51",
-  "unit": "шт",
-  "buy_price": 1.25,
-  "amount": 2
-  },
-  {
-  "name": "Трансформер 51 мм ",
-  "unit": "шт",
-  "buy_price": 1.9,
-  "amount": 125
-  },
-  {
-  "name": "Трансформер 51 мм ",
-  "unit": "шт",
-  "buy_price": 2.51,
-  "amount": 3
-  },
-  {
-  "name": "Трансформер 51 Т",
-  "unit": "шт",
-  "buy_price": 2.5,
-  "amount": 2
-  },
-  {
-  "name": "Трансформер тексталит ",
-  "unit": "шт",
-  "buy_price": 1.17,
-  "amount": 61
-  },
-  {
-  "name": "Трансформер Тексталит (PVC)",
-  "unit": "шт",
-  "buy_price": 4.4,
-  "amount": 60
-  },
-  {
-  "name": "Трансформер Тексталит (PVC)",
-  "unit": "шт",
-  "buy_price": 3.9,
-  "amount": 50
-  },
-  {
-  "name": "Тросс для флага 2,0 мм ",
-  "unit": "метр",
-  "buy_price": 0.07,
-  "amount": 500
-  },
-  {
-  "name": "Тросс для флага 3,0 мм ",
-  "unit": "метр",
-  "buy_price": 0.11,
-  "amount": 210
-  },
-  {
-  "name": "Труба тексталит сварный ",
-  "unit": "шт",
-  "buy_price": 26.81,
-  "amount": 2
-  },
-  {
-  "name": "Трубагип ",
-  "unit": "шт",
-  "buy_price": 850,
-  "amount": 2
-  },
-  {
-  "name": "Трубагип 19\/22\/25",
-  "unit": "шт",
-  "buy_price": 170,
-  "amount": 1
-  },
-  {
-  "name": "Трубагип 32 мм ",
-  "unit": "шт",
-  "buy_price": 227.8,
-  "amount": 1
-  },
-  {
-  "name": "Трубагип 38 мм ",
-  "unit": "шт",
-  "buy_price": 200,
-  "amount": 1
-  },
-  {
-  "name": "Трубагип 38 мм ",
-  "unit": "шт",
-  "buy_price": 253.3,
-  "amount": 1
-  },
-  {
-  "name": "Тумба таййор хитой 102*1230",
-  "unit": "шт",
-  "buy_price": 32.3,
-  "amount": 9
-  },
-  {
-  "name": "Тумба таййор хитой 102*1330",
-  "unit": "шт",
-  "buy_price": 29.75,
-  "amount": 9
-  },
-  {
-  "name": "Тумба чор кунжа ",
-  "unit": "шт",
+ {
+   "pack": "КРАСКА"
+ },
+ {
+  "pack": "Alpha solvent ",
+  "unit": "шт",
+  "price": 50,
   "buy_price": 30,
-  "amount": 8
-  },
-  {
-  "name": "Тунука тешук мекадаги 19,2 ",
+  "sell_price": 50
+ },
+ {
+  "pack": " Alpha синяя",
   "unit": "шт",
-  "buy_price": 2.43,
-  "amount": 2
-  },
-  {
-  "name": "Тунука тешук мекадаги 25,5",
+  "price": 70,
+  "buy_price": 45,
+  "sell_price": 70
+ },
+ {
+  "pack": "Alpha желтая",
   "unit": "шт",
-  "buy_price": 3.13,
-  "amount": 5
-  },
-  {
-  "name": "Тунука тешук мекадаги 32,5",
+  "price": 70,
+  "buy_price": 45,
+  "sell_price": 70
+ },
+ {
+  "pack": "Alpha красная",
   "unit": "шт",
-  "buy_price": 4.17,
-  "amount": 3
-  },
-  {
-  "name": "Тунука тешук мекадаги 50 ",
+  "price": 70,
+  "buy_price": 45,
+  "sell_price": 70
+ },
+ {
+  "pack": "Alpha чёрный",
   "unit": "шт",
-  "buy_price": 6.59,
-  "amount": 2
-  },
-  {
-  "name": "Углорез 400",
+  "price": 70,
+  "buy_price": 45,
+  "sell_price": 70
+ },
+ {
+  "pack": " Galaxy solvent ",
   "unit": "шт",
-  "buy_price": 308,
-  "amount": 1
-  },
-  {
-  "name": "Услуга ",
+  "price": 18,
+  "buy_price": 12,
+  "sell_price": 18
+ },
+ {
+  "pack": " Galaxy синяя",
   "unit": "шт",
-  "buy_price": 1,
-  "amount": 0.37
-  },
-  {
-  "name": "Устки капкок 51",
+  "price": 21.5,
+  "buy_price": 16,
+  "sell_price": 20
+ },
+ {
+  "pack": " Galaxy чёрный",
   "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 50
-  },
-  {
-  "name": "Фарфор КК",
+  "price": 21.5,
+  "buy_price": 16,
+  "sell_price": 20
+ },
+ {
+  "pack": "Galaxy желтая",
   "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 20
-  },
-  {
-  "name": "Фарфор КК",
+  "price": 21.5,
+  "buy_price": 16,
+  "sell_price": 20
+ },
+ {
+  "pack": "Galaxy красная",
   "unit": "шт",
-  "buy_price": 0.49,
-  "amount": 18
-  },
-  {
-  "name": "Флянец 4*4",
+  "price": 21.5,
+  "buy_price": 16,
+  "sell_price": 20
+ },
+ {
+  "pack": "oracal цветной"
+ },
+ {
+  "pack": "Respect желтый 3016",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": " Respect желтый 3025",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": " Respect желтый 3041",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": " Respect красный матовый 3144",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect зеленый 3024",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect чёрный 3038",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect белый 3020",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect зеленый 3023",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect коричневый 3171",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect красный 3014",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect оранжевый 3015",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect серый 3031",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect серый матовый 3172",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect синий 3207",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect синий 3208",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect синий матовый 3368",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect чёрный матовый 3168",
+  "unit": "пг",
+  "price": 3.1,
+  "buy_price": 108,
+  "sell_price": 133
+ },
+ {
+  "pack": "Respect серебро 9288",
+  "unit": "пг",
+  "price": 5.2,
+  "buy_price": 205,
+  "sell_price": 250.00000000000003
+ },
+ {
+  "pack": "Respect серебро царапина 9287",
   "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 78
-  },
-  {
-  "name": "Флянец 5*5",
+  "price": 5.2,
+  "buy_price": 210,
+  "sell_price": 250
+ },
+ {
+  "pack": "Respect золото 9281",
+  "unit": "пг",
+  "price": 5.2,
+  "buy_price": 205,
+  "sell_price": 250.00000000000003
+ },
+ {
+  "pack": "Respect золото царапина 9283",
   "unit": "шт",
-  "buy_price": 0.23,
-  "amount": 829
-  },
-  {
-  "name": "Флянец байрок ",
+  "price": 5.2,
+  "buy_price": 210,
+  "sell_price": 250
+ },
+ {
+  "pack": "Respect серая матовая 8199",
+  "unit": "пг",
+  "price": 5.2,
+  "buy_price": 200,
+  "sell_price": 250
+ },
+ {
+  "pack": "Respect бронза  8198",
   "unit": "шт",
-  "buy_price": 4.1,
-  "amount": 7
-  },
-  {
-  "name": "Флянец КолянТумба",
+  "price": 5.2,
+  "buy_price": 200,
+  "sell_price": 250
+ },
+ {
+  "pack": "Respect светоотраж белая 9301",
   "unit": "шт",
+  "price": 7.5,
+  "buy_price": 280,
+  "sell_price": 330
+ },
+ {
+  "pack": "Respect светоотраж желтая 9302",
+  "unit": "шт",
+  "price": 7.5,
+  "buy_price": 280,
+  "sell_price": 330
+ },
+ {
+  "pack": "Respect светоотраж зеленый 9304",
+  "unit": "шт",
+  "price": 7.5,
+  "buy_price": 280,
+  "sell_price": 330
+ },
+ {
+  "pack": "Respect светоотраж красная\t 9303",
+  "unit": "шт",
+  "price": 7.5,
+  "buy_price": 280,
+  "sell_price": 330
+ },
+ {
+  "pack": "Respect светоотраж синий 9305",
+  "unit": "шт",
+  "price": 7.5,
+  "buy_price": 280,
+  "sell_price": 330
+ },
+ {
+  "pack": "оракал  желтый 3039 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал  желтый 3041   alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал  малинвий 3027  alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал  оражвий  3015 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал  синий 3207 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "мантажка 122 -365",
+  "price": 2.8,
+  "buy_price": 125,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал Зеленый 3001 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал Зеленый 3029 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал золота 9281 alfajet",
+  "unit": "шт",
+  "price": 5,
+  "buy_price": 150,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал золота 9286 alfajeta",
+  "unit": "шт",
+  "price": 5,
+  "buy_price": 150,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал красная 3014  alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал нежно-розовый 3193M alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал светло-синий 3007 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал серебро 9288 alfajet",
+  "unit": "шт",
+  "price": 5,
+  "buy_price": 150,
+  "sell_price": 220
+ },
+ {
+  "pack": "оракал серебро царапина 9287 alfajet",
+  "unit": "шт",
+  "price": 5,
+  "buy_price": 150,
+  "sell_price": 220
+ },
+ {
+  "pack": "оракал Серый 3043 alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "оракал чёрный матт 3168  alfajet",
+  "unit": "шт",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 135
+ },
+ {
+  "pack": "Блок питания"
+ },
+ {
+  "pack": "10А широкая",
+  "unit": "шт",
+  "price": 6.5,
+  "buy_price": 5,
+  "sell_price": 6
+ },
+ {
+  "pack": "12,5A узкий SLIM",
+  "unit": "шт",
+  "price": 7,
+  "buy_price": 4.5,
+  "sell_price": 6.5
+ },
+ {
+  "pack": "16,7A  наружный",
+  "unit": "шт",
+  "price": 8.5,
+  "buy_price": 6,
+  "sell_price": 7.5
+ },
+ {
+  "pack": "16,7А широкая",
+  "unit": "шт",
+  "price": 8.2,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "2 А узкий",
+  "unit": "шт",
+  "price": 3,
+  "buy_price": 2.5,
+  "sell_price": 3
+ },
+ {
+  "pack": "20А широкая",
+  "unit": "шт",
+  "price": 10,
+  "buy_price": 7.5,
+  "sell_price": 9
+ },
+ {
+  "pack": "25A  наружный",
+  "unit": "шт",
+  "price": 11,
+  "buy_price": 7,
+  "sell_price": 10
+ },
+ {
+  "pack": "25A узкий SLIM",
+  "unit": "шт",
+  "price": 10.5,
+  "buy_price": 6.5,
+  "sell_price": 10
+ },
+ {
+  "pack": "30А узкий",
+  "unit": "шт",
+  "price": 12,
+  "buy_price": 8.8,
+  "sell_price": 11
+ },
+ {
+  "pack": "30А широкая",
+  "unit": "шт",
+  "price": 12,
+  "buy_price": 8.5,
+  "sell_price": 11
+ },
+ {
+  "pack": "33,3A  наружный",
+  "unit": "шт",
+  "price": 13,
+  "buy_price": 8,
+  "sell_price": 12
+ },
+ {
+  "pack": "33,3A узкий SLIM",
+  "unit": "шт",
+  "price": 12.5,
+  "buy_price": 7.5,
+  "sell_price": 12
+ },
+ {
+  "pack": "41,6A  узкий SLIM",
+  "unit": "шт",
+  "price": 15,
+  "buy_price": 11,
+  "sell_price": 14
+ },
+ {
+  "pack": "50A  наружный",
+  "unit": "шт"
+ },
+ {
+  "pack": "5А узкий",
+  "unit": "шт",
+  "price": 5,
+  "buy_price": 3,
+  "sell_price": 4
+ },
+ {
+  "pack": "8,3А узкий SLIM",
+  "unit": "шт",
+  "price": 5.4,
+  "buy_price": 4,
+  "sell_price": 5.5
+ },
+ {
+  "pack": "5А пластмасса",
+  "unit": "шт",
+  "price": 6.4,
+  "buy_price": 3.2,
+  "sell_price": 4
+ },
+ {
+  "pack": "2 А широкая",
+  "unit": "шт",
+  "price": 7.4,
+  "buy_price": 2.5,
+  "sell_price": 3
+ },
+ {
+  "pack": "6А узкий",
+  "unit": "шт",
+  "price": 8.4,
+  "buy_price": 4.5,
+  "sell_price": 6
+ },
+ {
+  "pack": "монтажный кабель"
+ },
+ {
+  "pack": "кабель прозрачный 0,5мм",
+  "unit": "шт",
+  "price": 0.55,
+  "buy_price": 35,
+  "sell_price": 55
+ },
+ {
+  "pack": "кабель прозрачный 0,3мм",
+  "unit": "шт",
+  "price": 1.55,
+  "buy_price": 22,
+  "sell_price": 32
+ },
+ {
+  "pack": "кабель прозрачный 0,2мм",
+  "unit": "шт",
+  "price": 2.55,
+  "buy_price": 18,
+  "sell_price": 28
+ },
+ {
+  "pack": "кабель  0,75мм рулон",
+  "unit": "шт",
+  "price": 9.28,
+  "buy_price": 6.5,
+  "sell_price": 9
+ },
+ {
+  "pack": "Светодиод"
+ },
+ {
+  "pack": "LED  5M  240L  2835 лента",
+  "unit": "шт",
+  "price": 9,
+  "buy_price": 4.5,
+  "sell_price": 7.5
+ },
+ {
+  "pack": "LED 5M  5054   лента",
+  "unit": "шт",
+  "price": 10,
+  "buy_price": 6,
+  "sell_price": 8
+ },
+ {
+  "pack": "Лед 5054 белый мин 2",
+  "unit": "шт",
+  "price": 0.1,
+  "buy_price": 0.08,
+  "sell_price": 0.09
+ },
+ {
+  "pack": "Лед 5054 белый мин 3",
+  "unit": "шт",
+  "price": 0.08,
   "buy_price": 0.5,
-  "amount": 65
-  },
-  {
-  "name": "Флянец Нерж 25*62 мм",
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед 5054 жёлтая",
   "unit": "шт",
-  "buy_price": 0.29,
-  "amount": 378
-  },
-  {
-  "name": "Флянец Чёрный 51 мм",
+  "price": 0.07,
+  "buy_price": 0.5,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед 5054 зеленая",
   "unit": "шт",
-  "buy_price": 0.22,
-  "amount": 759
-  },
-  {
-  "name": "Халкагул 150*19*304",
+  "price": 0.07,
+  "buy_price": 0.5,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед 5054 красная",
   "unit": "шт",
-  "buy_price": 4.25,
-  "amount": 2
-  },
-  {
-  "name": "Халкача",
+  "price": 0.07,
+  "buy_price": 0.5,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед 5054 навот",
   "unit": "шт",
-  "buy_price": 0.53,
-  "amount": 129
-  },
-  {
-  "name": "Хрусталь балясина 950А",
+  "price": 0.07,
+  "buy_price": 0.5,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед 5054 Синие",
   "unit": "шт",
-  "buy_price": 39.93,
-  "amount": 29
-  },
-  {
-  "name": "Хрусталь балясина 950К",
+  "price": 0.07,
+  "buy_price": 0.5,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "Лед линза 2,4W",
   "unit": "шт",
-  "buy_price": 44.1,
-  "amount": 39
-  },
-  {
-  "name": "Хрусталь баляска 950 мм ",
+  "price": 2.5,
+  "buy_price": 1.5,
+  "sell_price": 2
+ },
+ {
+  "pack": "Лед палка большая",
   "unit": "шт",
+  "price": 5.3,
+  "buy_price": 3,
+  "sell_price": 5
+ },
+ {
+  "pack": "Лед палка маленькая",
+  "unit": "шт",
+  "price": 3.35,
+  "buy_price": 2,
+  "sell_price": 3
+ },
+ {
+  "pack": "Лед 5054 RGB",
+  "unit": "шт",
+  "price": 0.21,
+  "buy_price": 0.015,
+  "sell_price": 0.18
+ },
+ {
+  "pack": "Лед 5054 белый",
+  "unit": "шт",
+  "price": 0.07,
+  "buy_price": 0.047,
+  "sell_price": 0.07
+ },
+ {
+  "pack": "контроллер rgb 30а",
+  "unit": "шт",
+  "price": 1.07,
+  "buy_price": 7,
+  "sell_price": 9
+ },
+ {
+  "pack": "контроллер rgb 6а",
+  "unit": "шт",
+  "price": 2.07,
+  "buy_price": 1.1,
+  "sell_price": 2.5
+ },
+ {
+  "pack": "контроллер rgb 20а",
+  "unit": "шт",
+  "price": 3.07,
+  "buy_price": 5,
+  "sell_price": 7
+ },
+ {
+  "pack": "контроллер rgb сенсорный",
+  "unit": "шт",
+  "price": 4.07,
+  "buy_price": 4,
+  "sell_price": 6
+ },
+ {
+  "pack": "фотореле 220 вольт 6а",
+  "unit": "шт",
+  "price": 5.07,
+  "buy_price": 2,
+  "sell_price": 2.5
+ },
+ {
+  "pack": "фотореле 220 вольт 10а",
+  "unit": "шт",
+  "price": 6.07,
+  "buy_price": 2.5,
+  "sell_price": 3
+ },
+ {
+  "pack": "неон"
+ },
+ {
+  "pack": "неон  белый",
+  "price": 0.07,
+  "buy_price": 4,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  жёлтая",
+  "unit": "шт",
+  "price": 0.07,
+  "buy_price": 4,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  зеленая",
+  "unit": "шт",
+  "price": 0.07,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  красная",
+  "unit": "шт",
+  "price": 2.5,
+  "buy_price": 4,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  Синие",
+  "unit": "шт",
+  "price": 5.3,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  фиолетовый",
+  "unit": "шт",
+  "price": 3.35,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  салатовый",
+  "unit": "шт",
+  "price": 0.21,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  розовый ",
+  "unit": "шт",
+  "price": 0.07,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон  оранжевый ",
+  "unit": "шт",
+  "price": 1.07,
+  "buy_price": 6,
+  "sell_price": 7
+ },
+ {
+  "pack": "неон 2 "
+ },
+ {
+  "pack": "неон  красная",
+  "unit": "шт",
+  "price": 1.07,
+  "buy_price": 1.5,
+  "sell_price": 2.5
+ },
+ {
+  "pack": "неон  жёлтая ",
+  "unit": "шт",
+  "price": 2.07,
+  "buy_price": 1.5,
+  "sell_price": 2.5
+ },
+ {
+  "pack": "Акрил"
+ },
+ {
+  "pack": "Акрил 136 3мм красный",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 138 3мм красный",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 237 3мм жёлтый",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 266 3мм оранжевый",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 325 3мм синий",
+  "unit": "шт",
+  "price": 50,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 327 3мм синий",
+  "unit": "шт",
+  "price": 47.5,
   "buy_price": 40,
-  "amount": 10
-  },
-  {
-  "name": "Цянга 1,6 мм ",
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 3557 3мм розовый ",
   "unit": "шт",
-  "buy_price": 0.12,
-  "amount": 9
-  },
-  {
-  "name": "Цянга 2,0 ",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 377 3мм фиолетовый",
   "unit": "шт",
-  "buy_price": 0.41,
-  "amount": 7
-  },
-  {
-  "name": "Цянга 2,0 калон ",
+  "price": 48,
+  "buy_price": 40,
+  "sell_price": 42
+ },
+ {
+  "pack": "Акрил 425 3мм белый",
   "unit": "шт",
-  "buy_price": 0.41,
-  "amount": 10
-  },
-  {
-  "name": "Чашка 102*150 мм",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 502 3мм черный",
   "unit": "шт",
-  "buy_price": 0.75,
-  "amount": 250
-  },
-  {
-  "name": "Чашка 25*78 голд",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 504 3мм серый",
   "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 8
-  },
-  {
-  "name": "Чашка 25*90 мм",
+  "price": 50,
+  "buy_price": 45,
+  "sell_price": 55
+ },
+ {
+  "pack": "Акрил 617 3мм  зеленый",
   "unit": "шт",
-  "buy_price": 0.4,
-  "amount": 39
-  },
-  {
-  "name": "Чашка 51",
+  "price": 47.5,
+  "buy_price": 42,
+  "sell_price": 43
+ },
+ {
+  "pack": "Акрил 635 3мм салатовый",
   "unit": "шт",
+  "price": 47.5,
+  "buy_price": 42,
+  "sell_price": 43
+ },
+ {
+  "pack": "Акрил 8118 3мм красный",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 8125 3мм темно-зеленый",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 8135 3мм синий",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 8235 3мм жёлтый",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил 8835 3мм синий",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил P9T26 3мм день ночь ",
+  "unit": "шт",
+  "price": 61,
+  "buy_price": 50,
+  "sell_price": 54
+ },
+ {
+  "pack": "Акрил прозрачно 000 3мм",
+  "unit": "шт",
+  "price": 47.5,
+  "buy_price": 36,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил золото 1 мм",
+  "unit": "шт",
+  "price": 46,
+  "buy_price": 28,
+  "sell_price": 40
+ },
+ {
+  "pack": "Акрил золото 2 мм",
+  "unit": "шт",
+  "price": 60,
+  "buy_price": 40,
+  "sell_price": 50
+ },
+ {
+  "pack": "Акрил серебро 2 мм",
+  "unit": "шт",
+  "price": 61,
+  "buy_price": 40,
+  "sell_price": 50
+ },
+ {
+  "pack": "сверло для акрил-алюкобонд 3мм",
+  "unit": "шт",
+  "price": 62,
+  "buy_price": 3,
+  "sell_price": 5
+ },
+ {
+  "pack": "сверло для акрил-алюкобонд 4мм",
+  "unit": "шт",
+  "price": 63,
+  "buy_price": 4,
+  "sell_price": 6
+ },
+ {
+  "pack": "сверло для акрила 5мм",
+  "unit": "шт",
+  "price": 64,
+  "buy_price": 6,
+  "sell_price": 8
+ },
+ {
+  "pack": "Баннер"
+ },
+ {
+  "pack": "Баннер 110*70",
+  "unit": "шт",
+  "price": 58,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 130*70",
+  "unit": "шт",
+  "price": 68.5,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 160*70",
+  "unit": "шт",
+  "price": 84,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 180*33",
+  "unit": "шт",
+  "price": 45,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 180*70",
+  "unit": "шт",
+  "price": 94.5,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 210*70",
+  "unit": "шт",
+  "price": 110.25,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 220*70",
+  "unit": "шт",
+  "price": 115.5,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 320*70",
+  "unit": "шт",
+  "price": 168,
+  "buy_price": 0.6,
+  "sell_price": 0.75
+ },
+ {
+  "pack": "Баннер 320*70 черный подложка",
+  "unit": "шт",
+  "price": 182,
+  "buy_price": 0.65,
+  "sell_price": 0.8
+ },
+ {
+  "pack": "оракал печатный "
+ },
+ {
+  "pack": "оракал печатный 107",
+  "unit": "шт",
+  "price": 72,
+  "Column4": 53.5,
+  "buy_price": 48.15,
+  "sell_price": 58.85
+ },
+ {
+  "pack": "оракал печатный 127",
+  "unit": "шт",
+  "price": 84,
+  "Column4": 63.5,
+  "buy_price": 57.15,
+  "sell_price": 69.85000000000001
+ },
+ {
+  "pack": "оракал печатный 152",
+  "unit": "шт",
+  "price": 102,
+  "Column4": 76,
+  "buy_price": 68.4,
+  "sell_price": 83.6
+ },
+ {
+  "pack": "оракал матт 107",
+  "unit": "шт",
+  "price": 73,
+  "Column4": 53.5,
+  "buy_price": 48.15,
+  "sell_price": 60
+ },
+ {
+  "pack": "оракал матт 127",
+  "unit": "шт",
+  "price": 85,
+  "Column4": 63.5,
+  "buy_price": 57.15,
+  "sell_price": 70
+ },
+ {
+  "pack": "оракал прозрачни 107",
+  "unit": "шт",
+  "price": 84,
+  "Column4": 53.5,
+  "buy_price": 58.85,
+  "sell_price": 74.89999999999999
+ },
+ {
+  "pack": "оракал прозрачни 127",
+  "unit": "шт",
+  "price": 100,
+  "Column4": 63.5,
+  "buy_price": 69.85000000000001,
+  "sell_price": 88.9
+ },
+ {
+  "pack": "оракал прозрачни 152",
+  "unit": "шт",
+  "price": 120,
+  "Column4": 76,
+  "buy_price": 83.6,
+  "sell_price": 106.39999999999999
+ },
+ {
+  "pack": "оракал  сетка 107",
+  "unit": "шт",
+  "price": 115,
+  "Column4": 53.5,
+  "buy_price": 85.6,
+  "sell_price": 101.64999999999999
+ },
+ {
+  "pack": "оракал  сетка 127",
+  "unit": "шт",
+  "price": 136,
+  "Column4": 63.5,
+  "buy_price": 101.60000000000001,
+  "sell_price": 120.64999999999999
+ },
+ {
+  "pack": "оракал  сетка 152",
+  "unit": "шт",
+  "price": 163,
+  "Column4": 76,
+  "buy_price": 121.60000000000001,
+  "sell_price": 144.4
+ },
+ {
+  "pack": "Бэкпринт 0,915 G",
+  "unit": "шт",
+  "price": 3.2
+ },
+ {
+  "pack": "Бэкпринт 127 G",
+  "unit": "шт",
+  "price": 4.35
+ },
+ {
+  "pack": "Бэкпринт 0,615 G",
+  "unit": "шт",
+  "price": 5.35
+ },
+ {
+  "pack": "светоотражающий печатный Respect 152*50",
+  "unit": "шт",
+  "price": 350,
+  "buy_price": 200,
+  "sell_price": 350
+ },
+ {
+  "pack": "фомакс"
+ },
+ {
+  "pack": "фомакс 3 мм",
+  "unit": "шт",
+  "price": 10,
+  "buy_price": 7.5,
+  "sell_price": 9
+ },
+ {
+  "pack": "фомакс 4 мм",
+  "unit": "шт",
+  "price": 12.2,
+  "buy_price": 9.5,
+  "sell_price": 11
+ },
+ {
+  "pack": "фомакс 5 мм",
+  "unit": "шт",
+  "price": 13.5,
+  "buy_price": 11.5,
+  "sell_price": 12.5
+ },
+ {
+  "pack": "фомакс 8 мм",
+  "unit": "шт",
+  "price": 22,
+  "buy_price": 17.5,
+  "sell_price": 21
+ },
+ {
+  "pack": "фомакс 10 мм",
+  "unit": "шт",
+  "price": 25.7,
+  "buy_price": 22.5,
+  "sell_price": 25
+ },
+ {
+  "pack": "оргстекло"
+ },
+ {
+  "pack": "оргстекло матт 2,8",
+  "unit": "шт",
+  "price": 32.5,
+  "buy_price": 26,
+  "sell_price": 30
+ },
+ {
+  "pack": "оргстекло матт 183",
+  "unit": "шт",
+  "price": 25,
+  "buy_price": 21,
+  "sell_price": 25
+ },
+ {
+  "pack": "оргстекло прозр 2,8",
+  "unit": "шт",
+  "price": 33,
+  "buy_price": 26,
+  "sell_price": 30
+ },
+ {
+  "pack": "оргстекло прозр 5мм",
+  "unit": "шт",
+  "price": 58,
+  "buy_price": 43,
+  "sell_price": 50
+ },
+ {
+  "pack": "АБС-ПЕТ-Магнит"
+ },
+ {
+  "pack": "пэт пластик 0,5 мм",
+  "unit": "шт",
+  "price": 14,
+  "buy_price": 8,
+  "sell_price": 11
+ },
+ {
+  "pack": "пэт пластик10 мм",
+  "unit": "шт",
+  "price": 20,
+  "buy_price": 15,
+  "sell_price": 18
+ },
+ {
+  "pack": "двухсторонний скотч 0,5мм",
+  "unit": "шт",
+  "price": 7,
+  "buy_price": 4,
+  "sell_price": 6
+ },
+ {
+  "pack": "АБС пластик золото",
+  "unit": "шт",
+  "price": 11.42,
+  "buy_price": 7,
+  "sell_price": 9.5
+ },
+ {
+  "pack": "АБС пластик серебро царапина ",
+  "unit": "шт",
+  "price": 11.42,
+  "buy_price": 7,
+  "sell_price": 10
+ },
+ {
+  "pack": "АБС пластик серебро",
+  "unit": "шт",
+  "price": 13,
+  "buy_price": 7,
+  "sell_price": 9.5
+ },
+ {
+  "pack": "АБС пластик золото царапина",
+  "unit": "шт",
+  "price": 11.42,
+  "buy_price": 7,
+  "sell_price": 10
+ },
+ {
+  "pack": "булавка для бейджика",
+  "unit": "шт",
+  "price": 0.1,
+  "buy_price": 0.03,
+  "sell_price": 0.1
+ },
+ {
+  "pack": "магнит для бейджа 1 талик 17мм",
+  "unit": "шт",
+  "price": 0.25,
   "buy_price": 0.2,
-  "amount": 925
-  },
-  {
-  "name": "Чашка 51*100 мм",
+  "sell_price": 0.25
+ },
+ {
+  "pack": "магнит для бейджа 2 металлический",
   "unit": "шт",
-  "buy_price": 0.25,
-  "amount": 1480
-  },
-  {
-  "name": "Чашка 51*100 мм",
-  "unit": "шт",
-  "buy_price": 0.36,
-  "amount": 413
-  },
-  {
-  "name": "Чашка 51*150 мм",
-  "unit": "шт",
-  "buy_price": 0.75,
-  "amount": 393
-  },
-  {
-  "name": "Чашка 63*120 мм",
-  "unit": "шт",
-  "buy_price": 0.58,
-  "amount": 222
-  },
-  {
-  "name": "Чашка 68*22",
-  "unit": "шт",
-  "buy_price": 0.2,
-  "amount": 105
-  },
-  {
-  "name": "Чашка 76*120 мм",
-  "unit": "шт",
-  "buy_price": 0.58,
-  "amount": 1282
-  },
-  {
-  "name": "Чашка 78*25",
-  "unit": "шт",
-  "buy_price": 0.26,
-  "amount": 6
-  },
-  {
-  "name": "Чашка 90*32",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 460
-  },
-  {
-  "name": "Чашка 90*38",
-  "unit": "шт",
-  "buy_price": 0.23,
-  "amount": 308
-  },
-  {
-  "name": "Чашка 90*38",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 573
-  },
-  {
-  "name": "Чашка Калон 38 мм",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 30
-  },
-  {
-  "name": "Чашка круглый 90*32",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 200
-  },
-  {
-  "name": "Чашка круглый 90*38",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 30
-  },
-  {
-  "name": "Шайба бакавушка 8*70",
-  "unit": "шт",
-  "buy_price": 0.12,
-  "amount": 224
-  },
-  {
-  "name": "Шар 100",
-  "unit": "шт",
-  "buy_price": 1.6,
-  "amount": 4
-  },
-  {
-  "name": "Шар 100 Т ",
-  "unit": "шт",
-  "buy_price": 1.6,
-  "amount": 5
-  },
-  {
-  "name": "Шар 100*25 голд ",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 4
-  },
-  {
-  "name": "Шар 120",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 10
-  },
-  {
-  "name": "Шар 120",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 10
-  },
-  {
-  "name": "Шар 120 Т ",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 5
-  },
-  {
-  "name": "Шар 120*51 ",
-  "unit": "шт",
-  "buy_price": 1.61,
-  "amount": 98
-  },
-  {
-  "name": "Шар 120*51 голд ",
-  "unit": "шт",
-  "buy_price": 1.77,
-  "amount": 211
-  },
-  {
-  "name": "Шар 25*100 сафед",
-  "unit": "шт",
-  "buy_price": 1.7,
-  "amount": 29
-  },
-  {
-  "name": "Шар 32*19",
-  "unit": "шт",
+  "price": 0.53,
   "buy_price": 0.35,
-  "amount": 52
-  },
-  {
-  "name": "Шар 38*25",
+  "sell_price": 0.45
+ },
+ {
+  "pack": "магнит для бейджа 2 пластмасса",
   "unit": "шт",
-  "buy_price": 0.18,
-  "amount": 47
-  },
-  {
-  "name": "Шар 48*25",
+  "price": 0.45
+ },
+ {
+  "pack": "магнит для бейджа 3 пластмасса",
   "unit": "шт",
+  "price": 0.55,
   "buy_price": 0.4,
-  "amount": 10
-  },
-  {
-  "name": "Шар 5*5 голд  шиша ",
+  "sell_price": 0.5
+ },
+ {
+  "pack": "присоска",
+  "unit": "шт",
+  "price": 0.55,
+  "buy_price": 0.08,
+  "sell_price": 0.11
+ },
+ {
+  "pack": "магнит рулонный 60см ",
+  "unit": "шт",
+  "price": 10
+ },
+ {
+  "pack": "магнит  60см белый подложка",
+  "unit": "шт",
+  "price": 11
+ },
+ {
+  "pack": "пробойник  люверс",
+  "unit": "шт",
+  "price": 35,
+  "buy_price": 28,
+  "sell_price": 35
+ },
+ {
+  "pack": "люверсы 10мм",
+  "unit": "шт",
+  "price": 5.5
+ },
+ {
+  "pack": "люверсы 12мм",
+  "unit": "шт",
+  "price": 6
+ },
+ {
+  "pack": "Ракел"
+ },
+ {
+  "pack": "ракель войлк",
+  "unit": "шт",
+  "price": 3.33,
+  "buy_price": 3,
+  "sell_price": 4
+ },
+ {
+  "pack": "ракель китай",
+  "unit": "шт",
+  "price": 3.33,
+  "buy_price": 2,
+  "sell_price": 3
+ },
+ {
+  "pack": "ракель  пластмасса жёлтый",
+  "unit": "шт",
+  "price": 4.33,
+  "buy_price": 2.5,
+  "sell_price": 3.5
+ },
+ {
+  "pack": "рамка"
+ },
+ {
+  "pack": "рамка золотая",
+  "unit": "шт",
+  "price": 0.82,
+  "buy_price": 0.37,
+  "sell_price": 0.9
+ },
+ {
+  "pack": "рамка серебро",
+  "unit": "шт",
+  "price": 0.82,
+  "buy_price": 0.37,
+  "sell_price": 0.9
+ },
+ {
+  "pack": "углорез для рамки",
   "unit": "шт",
   "buy_price": 5,
-  "amount": 20
-  },
-  {
-  "name": "Шар 5*5 сафед шиша ",
+  "sell_price": 8
+ },
+ {
+  "pack": "туманка 200 гр 127  ",
   "unit": "шт",
-  "buy_price": 4.5,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 304 голд ",
+  "price": 2.85,
+  "buy_price": 100,
+  "sell_price": 150
+ },
+ {
+  "pack": "Утюг для загиба акрила",
   "unit": "шт",
-  "buy_price": 4,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 304 голд тухум",
+  "price": 38,
+  "buy_price": 28,
+  "sell_price": 35
+ },
+ {
+  "pack": "Клай жс50",
   "unit": "шт",
-  "buy_price": 3.7,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 304 Сафед ",
-  "unit": "шт",
-  "buy_price": 3.5,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 304 сафед тухум",
-  "unit": "шт",
-  "buy_price": 3.4,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 голд Top",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 5
-  },
-  {
-  "name": "Шар 51 голд шиша ",
-  "unit": "шт",
-  "buy_price": 4.78,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51 нимтаги ",
-  "unit": "шт",
-  "buy_price": 0.45,
-  "amount": 5
-  },
-  {
-  "name": "Шар 51 нимтаги Т ",
-  "unit": "шт",
-  "buy_price": 1.5,
-  "amount": 2
-  },
-  {
-  "name": "Шар 51 сафед Top",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 5
-  },
-  {
-  "name": "Шар 51 сафед Шиша ",
-  "unit": "шт",
-  "buy_price": 4.78,
-  "amount": 20
-  },
-  {
-  "name": "Шар 51*100 голд ",
-  "unit": "шт",
-  "buy_price": 1.18,
-  "amount": 595
-  },
-  {
-  "name": "Шар 51*25 тешук",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 13
-  },
-  {
-  "name": "Шар 63 Т ",
-  "unit": "шт",
+  "price": 0.85,
   "buy_price": 0.6,
-  "amount": 5
-  },
-  {
-  "name": "Шар 63*19",
+  "sell_price": 0.8
+ },
+ {
+  "pack": "дихлорэтан",
   "unit": "шт",
-  "buy_price": 0.56,
-  "amount": 2
-  },
-  {
-  "name": "Шар 63*25 голд ",
+  "price": 1.85,
+  "buy_price": 18,
+  "sell_price": 22
+ },
+ {
+  "pack": "болт"
+ },
+ {
+  "pack": "болт дис 12х30",
   "unit": "шт",
-  "buy_price": 0.45,
-  "amount": 366
-  },
-  {
-  "name": "Шар 76 ",
+  "price": 0.25,
+  "buy_price": 0.18,
+  "sell_price": 0.2
+ },
+ {
+  "pack": "болт дис 16х25",
   "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 8
-  },
-  {
-  "name": "Шар 76 304 голд тухум ",
+  "price": 0.35,
+  "buy_price": 0.2,
+  "sell_price": 0.24
+ },
+ {
+  "pack": "болт дис 16х30",
   "unit": "шт",
-  "buy_price": 5.2,
-  "amount": 20
-  },
-  {
-  "name": "Шар 76 304 сафед ",
+  "price": 1.35,
+  "buy_price": 0.17,
+  "sell_price": 0.25
+ },
+ {
+  "pack": "болт дис 16х50",
   "unit": "шт",
-  "buy_price": 5.2,
-  "amount": 20
-  },
-  {
-  "name": "Шар 76 Голд   Топ ",
+  "price": 2.35,
+  "buy_price": 0.6,
+  "sell_price": 0.7
+ },
+ {
+  "pack": "болт дис 25x30",
   "unit": "шт",
-  "buy_price": 3,
-  "amount": 2
-  },
-  {
-  "name": "Шар 76 голд  шиша",
+  "price": 3.35,
+  "buy_price": 0.7,
+  "sell_price": 0.8
+ },
+ {
+  "pack": "болт дис 30x30",
   "unit": "шт",
-  "buy_price": 10,
-  "amount": 10
-  },
-  {
-  "name": "Шар 76 сафед  Топ ",
-  "unit": "шт",
-  "buy_price": 3,
-  "amount": 2
-  },
-  {
-  "name": "Шар 76 сафед шиша ",
-  "unit": "шт",
-  "buy_price": 10,
-  "amount": 10
-  },
-  {
-  "name": "Шар 76 Т ",
-  "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 5
-  },
-  {
-  "name": "Шар 76*25",
-  "unit": "шт",
-  "buy_price": 1.2,
-  "amount": 10
-  },
-  {
-  "name": "Шар 76*25",
-  "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 91
-  },
-  {
-  "name": "Шар 80*50 тушук 1 та ",
-  "unit": "шт",
-  "buy_price": 0.49,
-  "amount": 18
-  },
-  {
-  "name": "Шар 95*51",
-  "unit": "шт",
-  "buy_price": 1.02,
-  "amount": 308
-  },
-  {
-  "name": "Шар 95*51",
-  "unit": "шт",
-  "buy_price": 1.18,
-  "amount": 32
-  },
-  {
-  "name": "Шар Голд 38*19",
-  "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 34
-  },
-  {
-  "name": "Шар голд 38*19,5",
-  "unit": "шт",
-  "buy_price": 0.16,
-  "amount": 194
-  },
-  {
-  "name": "Шар нимтаги  51*08",
-  "unit": "шт",
-  "buy_price": 0.45,
-  "amount": 20
-  },
-  {
-  "name": "Шар овал тешук *25 ",
-  "unit": "шт",
+  "price": 4.35,
   "buy_price": 0.8,
-  "amount": 100
-  },
-  {
-  "name": "Шар овальный 25 тешук голд ",
+  "sell_price": 0.9
+ },
+ {
+  "pack": "болт дис 30x40",
   "unit": "шт",
-  "buy_price": 0.82,
-  "amount": 4
-  },
-  {
-  "name": "Шар овльный 25 тешук",
+  "price": 5.35,
+  "buy_price": 0.9,
+  "sell_price": 0.1
+ },
+ {
+  "pack": "запчасти для широкоформатных принтеров"
+ },
+ {
+  "pack": "Чистящие салфетки",
   "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 4
-  },
-  {
-  "name": "Шар тешук 120*25,5",
+  "price": 0.64,
+  "buy_price": 0.35,
+  "sell_price": 0.4
+ },
+ {
+  "pack": "щетка большой ",
   "unit": "шт",
-  "buy_price": 2.3,
-  "amount": 5
-  },
-  {
-  "name": "Шар тешук 25",
+  "price": 0.81,
+  "buy_price": 0.2,
+  "sell_price": 0.35
+ },
+ {
+  "pack": "Капа для дх5",
   "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 5
-  },
-  {
-  "name": "Шар тешук овал 25 голд ",
+  "price": 25,
+  "buy_price": 15,
+  "sell_price": 20
+ },
+ {
+  "pack": "Сенсорный датчик ",
   "unit": "шт",
-  "buy_price": 0.82,
-  "amount": 5
-  },
-  {
-  "name": "Шарнир к",
+  "price": 30,
+  "buy_price": 5,
+  "sell_price": 15
+ },
+ {
+  "pack": "датчик для ровера и лазера 12v-24VDC",
   "unit": "шт",
+  "price": 31,
+  "buy_price": 15,
+  "sell_price": 20
+ },
+ {
+  "pack": "смазка для принтера",
+  "unit": "шт",
+  "price": 31,
   "buy_price": 4,
-  "amount": 8
-  },
-  {
-  "name": "Шарнир к",
+  "sell_price": 7
+ },
+ {
+  "pack": "шлейф для дх5",
   "unit": "шт",
-  "buy_price": 4,
-  "amount": 20
-  },
-  {
-  "name": "Шарнирча 12 ",
+  "price": 32,
+  "buy_price": 5,
+  "sell_price": 10
+ },
+ {
+  "pack": "головка  дх5",
   "unit": "шт",
-  "buy_price": 0.3,
-  "amount": 119
-  },
-  {
-  "name": "шарча 51*25 ",
+  "price": 33,
+  "buy_price": 1350,
+  "sell_price": 1480
+ },
+ {
+  "pack": "головка  I3200",
   "unit": "шт",
-  "buy_price": 0.5,
-  "amount": 30
-  },
-  {
-  "name": "Шетка Бол 411",
+  "price": 35,
+  "buy_price": 1200,
+  "sell_price": 1450
+ },
+ {
+  "pack": "кружка"
+ },
+ {
+  "pack": "черная кружка для сублимации",
   "unit": "шт",
-  "buy_price": 0.25,
-  "amount": 200
-  },
-  {
-  "name": "Шкурка матовый ",
-  "unit": "шт",
-  "buy_price": 9,
-  "amount": 15
-  },
-  {
-  "name": "Шкурка широкий матвый",
-  "unit": "шт",
-  "buy_price": 8,
-  "amount": 10
-  },
-  {
-  "name": "Шкурка широкий матовый",
-  "unit": "шт",
-  "buy_price": 9,
-  "amount": 11
-  },
-  {
-  "name": "Шкурка Широкий матовый ",
-  "unit": "шт",
-  "buy_price": 8,
-  "amount": 10
-  },
-  {
-  "name": "ШлифЛента 80мм",
-  "unit": "шт",
-  "buy_price": 0.57,
-  "amount": 17
-  },
-  {
-  "name": "Шлифлента кавут 60",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 321
-  },
-  {
-  "name": "Шлифлента кавут 80",
-  "unit": "шт",
-  "buy_price": 2.69,
-  "amount": 189
-  },
-  {
-  "name": "Шлифлента кавут 80",
-  "unit": "шт",
-  "buy_price": 2,
-  "amount": 400
-  },
-  {
-  "name": "Шлифмашинка ",
-  "unit": "шт",
-  "buy_price": 240,
-  "amount": 7
-  },
-  {
-  "name": "Шрупавер",
-  "unit": "шт",
-  "buy_price": 77,
-  "amount": 1
-  },
-  {
-  "name": "Шрупавер ",
-  "unit": "шт",
-  "buy_price": 85,
-  "amount": 1
-  },
-  {
-  "name": "Шумка (1)",
-  "unit": "шт",
-  "buy_price": 1.77,
-  "amount": 20
-  },
-  {
-  "name": "Электрот Вольфрам 1,6",
-  "unit": "шт",
-  "buy_price": 0.8,
-  "amount": 50
-  },
-  {
-  "name": "Электрот Вольфрам 1,6",
-  "unit": "шт",
-  "buy_price": 0.65,
-  "amount": 400
-  },
-  {
-  "name": "Электрот Вольфрам 1,6",
-  "unit": "шт",
-  "buy_price": 0.65,
-  "amount": 33
-  },
-  {
-  "name": "Электрот Вольфрам 2,0 мм",
-  "unit": "шт",
-  "buy_price": 1.29,
-  "amount": 50
-  },
-  {
-  "name": "Электрот Вольфрам 2,0 мм ",
-  "unit": "шт",
-  "buy_price": 1.29,
-  "amount": 13
-  },
-  {
-  "name": "Электрот Вольфрам 2,4 мм",
-  "unit": "шт",
-  "buy_price": 1.67,
-  "amount": 42
-  },
-  {
-  "name": "Электрот Вольфрам 2,4 мм",
-  "unit": "шт",
-  "buy_price": 1.67,
-  "amount": 20
-  },
-  {
-  "name": "Якорь Дрель ",
-  "unit": "шт",
-  "buy_price": 10.95,
-  "amount": 5
-  }
+  "price": 36,
+  "buy_price": 0.2,
+  "sell_price": 0.25
+ }
 ]

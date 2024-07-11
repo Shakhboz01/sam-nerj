@@ -4,20 +4,24 @@ module DataPopulation
       products_data = JSON.parse(File.read('app/assets/javascripts/products.json'))
       product_category = ProductCategory.find_or_create_by(name: 'Смешанные')
       products_data.each do |product_data|
-        create_products(product_data, product_category.id)
+        create_products(product_data, ProductCategory.last&.id)
       end
     end
 
     private
 
     def create_products(data, category_id)
-      name = data['name']
-      initial_remaining = data['amount']
-      price_in_usd = true
-      buy_price = data['buy_price']
+      name = data['pack']
+      initial_remaining = 0
+      price_in_usd = false
+      buy_price = 10000
+      sell_price = data['price'].nil? ? 10000 : data['price'].to_f * 100
+      unit = data['unit'].nil? ? 4 : data['unit']
 
-      sell_price = data['buy_price'] * 105 / 100.to_f
-
+      if data['price'].nil?
+        ProductCategory.create(name: data['pack'])
+        return
+      end
 
       pr = Pack.create(
         name: name,
@@ -27,7 +31,7 @@ module DataPopulation
         buy_price: buy_price,
         sell_price: sell_price,
         initial_remaining: initial_remaining,
-        unit: data['unit'].to_sym
+        unit: unit
       )
       puts pr.errors.messages
     end

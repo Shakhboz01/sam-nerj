@@ -6,7 +6,7 @@ class Pack < ApplicationRecord
   has_many :pack_usages
   has_many :product_entries
   has_many :products
-  enum unit: %i[шт кг метр кв другой]
+  enum unit: %i[шт пг метр кв другой]
   validates :sell_price, comparison: { greater_than: 0 }
   validates :name, presence: true
   before_validation :reset_name
