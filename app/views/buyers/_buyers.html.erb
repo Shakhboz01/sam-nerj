@@ -27,7 +27,9 @@
         </td>
         <td>
           <%= link_to num_to_usd(buyer.calculate_debt_in_uzs), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: false}), method: :get, class: "#{ (buyer.calculate_debt_in_uzs < 0) ? 'badge-danger' : 'badge' }" %>
-          <%= link_to number_to_currency(buyer.calculate_debt_in_usd), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: true}), method: :get, class: "#{ (buyer.calculate_debt_in_uzs < 0) ? 'badge-danger' : 'badge' }" %>
+          <% unless ENV.fetch('SHOW_ONLY_UZS_CURRENCY', nil).present? %>
+            <%= link_to number_to_currency(buyer.calculate_debt_in_usd), sales_url(q_other: {total_paid_less_than_price: '1'},q: {buyer_id_eq: buyer.id, price_in_usd_true: true}), method: :get, class: "#{ (buyer.calculate_debt_in_uzs < 0) ? 'badge-danger' : 'badge' }" %>
+          <% end %>
         </td>
         <% unless defined?(shrink) %>
           <td><%= buyer.phone_number %></td>
