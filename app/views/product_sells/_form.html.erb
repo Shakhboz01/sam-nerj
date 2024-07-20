@@ -39,7 +39,7 @@
             <div class='pack-select'>
               <%= f.association :pack, label: false, collection: Pack.where(active: true).order(:name), include_blank: true, input_html: { hidden: true, id: 'pack-select' } %>
             </div>
-            <%= f.input :returning_pack, as: :boolean, label: 'Возврат', input_html: {checked: false} %>
+            <%= f.input :returning_pack, as: :boolean, label: 'Возврат', input_html: {checked: false, id: 'returning_pack', 'data-returning' => params[:returning].present?} %>
             <div id='pack_name' style='display: none'>
               <%= f.input :pack_name, label: t('pack_name_label') %>
             </div>
@@ -69,6 +69,12 @@
 
 <script>
   $(document).on('turbo:load', function(){
+    var isReturning = $('#returning_pack').data('returning');
+    if (isReturning) {
+      $('#returning_pack').prop('checked', true);
+    } else {
+      $('#returning_pack').prop('checked', false);
+    }
     function calculateAmount() {
       var numberOfSizes = parseFloat($("input[name*='number_of_sizes']").val());
       var width = parseFloat($("input[name*='width']").val());

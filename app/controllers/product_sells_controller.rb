@@ -111,7 +111,7 @@ class ProductSellsController < ApplicationController
     product_sell.decrement!(:amount, prod_sell_params['amount'].to_f)
     sale.decrement!(:total_price, price_to_decrement)
     pack.increment!(:initial_remaining, prod_sell_params['amount'].to_f)
-    redirect_to request.referrer, notice: 'Success'
+    redirect_to sale_url(sale.id, returning: true)
   end
 
   # Only allow a list of trusted parameters through.
