@@ -50,7 +50,7 @@ class ProductEntry < ApplicationRecord
   def set_sell_price
     return unless new_record?
 
-    self.sell_price = pack.sell_price
+    self.sell_price = pack.sell_price if sell_price.nil?
   end
 
   def verify_delivery_from_counterparty_is_not_closed
