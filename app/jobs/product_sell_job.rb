@@ -4,6 +4,8 @@ class ProductSellJob < ApplicationJob
 
   def perform(product_sell_id, action)
     product_sell = ProductSell.find(product_sell_id)
+    return if product_sell.sale.buyer.is_worker
+
     send(action.to_sym, product_sell)
   end
 
