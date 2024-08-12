@@ -10,7 +10,7 @@ wb.add_worksheet(name: "Expenditures Data") do |sheet|
   # Add the sales data
   @expenditures_data.each do |expenditure|
     sheet.add_row [
-      expenditure.total_price.to_i,
+      expenditure.price.to_i,
       expenditure.created_at.strftime("%Y-%m-%d %H:%M"),
       expenditure.comment,
       expenditure.expenditure_type
