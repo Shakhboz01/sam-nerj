@@ -9,6 +9,10 @@ class ExpendituresController < ApplicationController
                       .page(params[:page]).order(id: :desc)
     @expenditures_data = @expenditures
     @expenditures = @expenditures.page(params[:page]).per(70)
+    respond_to do |format|
+      format.html
+      format.xlsx
+    end
   end
 
   # GET /expenditures/1 or /expenditures/1.json

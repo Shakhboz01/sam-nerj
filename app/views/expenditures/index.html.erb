@@ -1,6 +1,7 @@
 <div class="container my-5">
   <%= link_to t('expenditures.new_expenditure'), new_expenditure_path, class: "btn btn-success min-width-btn mb-3" %>
   <h1 class='text-center'><%= t('expenditures.title') %></h1>
+  <%= link_to 'Экспорт в Excel', expenditures_url(q: params.dig(:q)&.permit!, format: :xlsx), class: 'btn btn-success' %>
 
   <%= render 'filter_form', q: @q, url: request.path %>
 
