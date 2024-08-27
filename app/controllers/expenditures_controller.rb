@@ -5,8 +5,7 @@ class ExpendituresController < ApplicationController
   # GET /expenditures or /expenditures.json
   def index
     @q = Expenditure.ransack(params[:q])
-    @expenditures = @q.result.filter_by_total_paid_less_than_price(params.dig(:q_other, :total_paid_less_than_price))
-                      .page(params[:page]).order(id: :desc)
+    @expenditures = @q.result.order(id: :desc)
     @expenditures_data = @expenditures
     @expenditures = @expenditures.page(params[:page]).per(70)
     respond_to do |format|
