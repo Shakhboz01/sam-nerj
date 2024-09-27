@@ -26,9 +26,9 @@ module ApplicationHelper
     end
   end
 
-  def cdlink_to(title, link, icon = "fa-remove", confirm_text = "вы уверены?")
+  def cdlink_to(title, link, icon = "bi-x-circle", confirm_text = "вы уверены?")
     button_to link, title: title, style: 'color: blue; cursor: pointer; border: none; background: none', method: :delete, data: { confirm: strip_tags(confirm_text) } do
-      content_tag(:i, '', class: %i[fa fa-fw].push(icon))
+      content_tag(:i, '', class: %i[bi fa-fw].push(icon))
     end
   end
 
