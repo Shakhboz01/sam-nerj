@@ -4,12 +4,12 @@
   <td><%= service.unit %></td>
   <td><%= service.team_fee_in_percent %>%</td>
 
-  <td><%= clink_to 'Редактировать', edit_service_path(service), 'fa-edit' %></td>
+  <td><%= clink_to 'Редактировать', edit_service_path(service), 'bi-pen' %></td>
   <td>
     <% if service.active %>
-      <%= clink_to 'Деактивировать', toggle_active_service_path(service), 'fa-ban', :post %>
+      <%= clink_to 'Деактивировать', toggle_active_service_path(service), 'bi-ban', :post %>
     <% else %>
-      <%= clink_to 'Активировать', toggle_active_service_path(service), 'fa-chart-line', :post %>
+      <%= clink_to 'Активировать', toggle_active_service_path(service), 'bi-bar-chart', :post %>
     <% end %>
   </td>
 </tr>

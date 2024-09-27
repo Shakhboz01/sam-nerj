@@ -28,9 +28,9 @@
         <% unless defined?(shrink) %>
           <td>
             <% if sale.closed? %>
-              <%= clink_to t('sales.open'), toggle_status_sale_path(sale), 'fa-lock', :post %>
+              <%= clink_to t('sales.open'), toggle_status_sale_path(sale), 'bi-lock-fill', :post %>
             <% else %>
-              <%= clink_to t('sales.close'), toggle_status_sale_path(sale), 'fa-lock-open', :post %>
+              <%= clink_to t('sales.close'), toggle_status_sale_path(sale), 'bi-unlock-fill', :post %>
             <% end %>
           </td>
         <% end %>
@@ -61,7 +61,8 @@
           <%= link_to html_view_sale_path(sale) do %>
             <%= image_tag image_url('printer.png'), style: 'width: 25px; height: 25px; cursor: pointer' %>
           <% end %>
-          <%= clink_to t('sales.view'), sale_path(sale), 'fa-search' %>
+
+          <%= clink_to t('sales.view'), sale_path(sale), 'bi-search-heart' %>
         </td>
       </tr>
     <% end %>

@@ -29,12 +29,12 @@
           <td><%= provider.phone_number %></td>
           <td><%= provider.comment %></td>
           <td>
-            <%= clink_to t('provider.edit_label'), edit_provider_path(provider), 'fa-edit' %>
+            <%= clink_to t('provider.edit_label'), edit_provider_path(provider), 'bi-pen' %>
             <%= clink_to t('provider.history_label'), delivery_from_counterparties_path(q: {provider_id_eq: provider.id}), 'fa-history' %>
             <% if provider.active %>
-              <%= clink_to t('provider.deactivate_label'), toggle_active_provider_path(provider), 'fa-ban', :post %>
+              <%= clink_to t('provider.deactivate_label'), toggle_active_provider_path(provider), 'bi-ban', :post %>
             <% else %>
-              <%= clink_to t('provider.activate_label'), toggle_active_provider_path(provider), 'fa-chart-line', :post %>
+              <%= clink_to t('provider.activate_label'), toggle_active_provider_path(provider), 'bi-bar-chart', :post %>
             <% end %>
           </td>
         <% end %>

@@ -30,7 +30,7 @@
           <td><%= strf_datetime(expenditure.created_at) %></td>
           <td>
             <% unless expenditure.sale_ids.nil? %>
-              <%= clink_to t('expenditures.view_sales'), expenditure, 'fa-search' %>
+              <%= clink_to t('expenditures.view_sales'), expenditure, 'bi-search-heart' %>
             <% end %>
 
             <td><%= cdlink_to 'удалить', expenditure %></td>

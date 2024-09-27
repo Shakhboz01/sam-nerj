@@ -22,13 +22,13 @@
               <td><%= user.name %></td>
               <td><%= user.role.capitalize %></td>
               <td>
-                <%= clink_to 'oylik istoriyasini korish', salaries_path(q: {user_id_eq: user.id}), 'fa-money' %>
+                <%= clink_to 'oylik istoriyasini korish', salaries_path(q: {user_id_eq: user.id}), 'bi-cash' %>
 
-                <%= clink_to 'зарплату/аванс berish', new_salary_path(team_id: user.id), 'fa-plus' %>
-                <%= clink_to 'Ozgartirish', edit_user_path(user), 'fa-edit' %>
-                <%= clink_to 'Parolni ozgartirish', edit_user_path(user, password_change: true), 'fa-lock-open' %>
+                <%= clink_to 'зарплату/аванс berish', new_salary_path(team_id: user.id), 'bi-plus-lg' %>
+                <%= clink_to 'Ozgartirish', edit_user_path(user), 'bi-pen' %>
+                <%= clink_to 'Parolni ozgartirish', edit_user_path(user, password_change: true), 'bi-unlock-fill' %>
                 <% if  user.active %>
-                  <%= clink_to 'Деактивировать работника! (работник не будет получать оплату и не может использовать это приложение)', toggle_active_user_user_path(user), 'fa-ban' %>
+                  <%= clink_to 'Деактивировать работника! (работник не будет получать оплату и не может использовать это приложение)', toggle_active_user_user_path(user), 'bi-ban' %>
                 <% else %>
                   <%= clink_to 'активировать работника! (работник может быть оплачен и может использовать это приложение)', toggle_active_user_user_path(user), 'fa-arrow-rotate-right' %>
                 <% end %>

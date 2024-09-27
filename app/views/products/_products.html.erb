@@ -31,17 +31,17 @@
             <td><%= product.initial_remaining %></td>
             <td><%= strf_datetime(product.created_at) %></td>
             <td>
-              <%= clink_to 'История приход товара', product_entries_path(q: {product_id_eq: product.id}), 'fa-search' %>
-              <%= clink_to 'Редактировать', edit_product_path(product), 'fa-edit' %>
+              <%= clink_to 'История приход товара', product_entries_path(q: {product_id_eq: product.id}), 'bi-search-heart' %>
+              <%= clink_to 'Редактировать', edit_product_path(product), 'bi-pen' %>
               <%= clink_to 'Изменить остаток товара', new_product_remaining_inequality_path(product_id: product.id), 'fa-not-equal' %>
               <% if product.product_remaining_inequalities.exists? %>
                 <%= clink_to 'показать историю изменений остаток товара', product_remaining_inequalities_path(q: {product_id_eq: product.id}), 'fa-clock-rotate-left' %>
               <% end %>
 
               <% if product.active %>
-                  <%= clink_to 'Деактивировать', toggle_active_product_path(product), 'fa-ban', :post %>
+                  <%= clink_to 'Деактивировать', toggle_active_product_path(product), 'bi-ban', :post %>
                 <% else %>
-                  <%= clink_to 'Активировать', toggle_active_product_path(product), 'fa-chart-line', :post %>
+                  <%= clink_to 'Активировать', toggle_active_product_path(product), 'bi-bar-chart', :post %>
               <% end %>
             </td>
           </tr>

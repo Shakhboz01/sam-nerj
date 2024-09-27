@@ -1,5 +1,5 @@
 <% if expenditure.total_paid < expenditure.price %>
-  <%= clink_to 'Пополнить оставщегося сум', new_transaction_history_path(expenditure_id: expenditure.id), 'fa-money-bill-transfer' %>
+  <%= clink_to 'Пополнить оставщегося сум', new_transaction_history_path(expenditure_id: expenditure.id), 'bi-cash-bill-transfer' %>
 <% end %>
 
 <% if expenditure.transaction_histories.exists? %>

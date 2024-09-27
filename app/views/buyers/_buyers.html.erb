@@ -33,11 +33,11 @@
           <td><%= buyer.phone_number %></td>
           <td><%= buyer.comment %></td>
           <td>
-            <%= clink_to t('buyers.index.edit'), edit_buyer_path(buyer), 'fa-edit' %>
+            <%= clink_to t('buyers.index.edit'), edit_buyer_path(buyer), 'bi-pen' %>
             <% if buyer.active %>
-              <%= clink_to t('buyers.index.deactivate'), toggle_active_buyer_path(buyer), 'fa-ban', :post %>
+              <%= clink_to t('buyers.index.deactivate'), toggle_active_buyer_path(buyer), 'bi-ban', :post %>
             <% else %>
-              <%= clink_to t('buyers.index.activate'), toggle_active_buyer_path(buyer), 'fa-chart-line', :post %>
+              <%= clink_to t('buyers.index.activate'), toggle_active_buyer_path(buyer), 'bi-bar-chart', :post %>
             <% end %>
           </td>
         <% end %>

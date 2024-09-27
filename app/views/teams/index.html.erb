@@ -20,14 +20,14 @@
               <td><%= team.id %></td>
               <td><%= team.name %></td>
               <td>
-                <%= clink_to 'посмотреть историю зарплат/аванс', salaries_path(q: {team_id_eq: team.id}), 'fa-money' %>
+                <%= clink_to 'посмотреть историю зарплат/аванс', salaries_path(q: {team_id_eq: team.id}), 'bi-cash' %>
                 <%= clink_to 'посмотреть историю выполненных работ', team_services_path(q: {team_id_eq: team.id}), 'fa-hammer' %>
-                <%= clink_to 'Оформить зарплату/аванс', new_salary_path(team_id: team.id), 'fa-plus' %>
-                <%= clink_to 'Редактировать', edit_team_path(team), 'fa-edit' %>
+                <%= clink_to 'Оформить зарплату/аванс', new_salary_path(team_id: team.id), 'bi-plus-lg' %>
+                <%= clink_to 'Редактировать', edit_team_path(team), 'bi-pen' %>
                 <% if team.active %>
-                  <%= clink_to 'Деактивировать', toggle_active_team_path(team), 'fa-ban', :post %>
+                  <%= clink_to 'Деактивировать', toggle_active_team_path(team), 'bi-ban', :post %>
                 <% else %>
-                  <%= clink_to 'Активировать', toggle_active_team_path(team), 'fa-chart-line', :post %>
+                  <%= clink_to 'Активировать', toggle_active_team_path(team), 'bi-bar-chart', :post %>
                 <% end %>
               </td>
             </tr>

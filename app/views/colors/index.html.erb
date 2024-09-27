@@ -19,8 +19,8 @@
             <tr>
                               <td><%= color.name %></td>
                               <td><%= color.hex %></td>
-                            <td><%= clink_to 'Посмотреть', color_path(color), 'fa-search' %></td>
-              <td><%= clink_to 'Редактировать', edit_color_path(color), 'fa-edit' %></td>
+                            <td><%= clink_to 'Посмотреть', color_path(color), 'bi-search-heart' %></td>
+              <td><%= clink_to 'Редактировать', edit_color_path(color), 'bi-pen' %></td>
               <td><%= cdlink_to 'удалить', color %></td>
             </tr>
           <% end %>

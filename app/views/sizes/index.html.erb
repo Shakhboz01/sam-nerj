@@ -17,8 +17,8 @@
           <% @sizes.each do |size| %>
             <tr>
                               <td><%= size.name %></td>
-                            <td><%= clink_to 'Посмотреть', size_path(size), 'fa-search' %></td>
-              <td><%= clink_to 'Редактировать', edit_size_path(size), 'fa-edit' %></td>
+                            <td><%= clink_to 'Посмотреть', size_path(size), 'bi-search-heart' %></td>
+              <td><%= clink_to 'Редактировать', edit_size_path(size), 'bi-pen' %></td>
               <td><%= cdlink_to 'удалить', size %></td>
             </tr>
           <% end %>

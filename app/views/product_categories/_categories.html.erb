@@ -1,6 +1,6 @@
 <div class='col-sm-2'>
   <div style='height: 100vh; overflow: auto'>
-    <%= clink_to 'Добавить категорию', new_product_category_path, 'fa-plus' %>
+    <%= clink_to 'Добавить категорию', new_product_category_path, 'bi-plus-lg' %>
     <br>
     <div style="border: 1px solid black;padding: 6px;background-color: rgb(204, 205, 206)" class='category-element text-center table-hover'>
       <%= link_to 'Показать все', product_categories_path, style: !defined?(product_category_id) && 'background: black; color: white;' %>

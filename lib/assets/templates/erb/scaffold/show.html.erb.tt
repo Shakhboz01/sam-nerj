@@ -35,7 +35,7 @@
 
       <div class="row mt-4">
         <div class="d-flex justify-content-start col-md-12">
-          <%= clink_to 'редактировать', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), 'fa-edit' %>
+          <%= clink_to 'редактировать', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), 'bi-pen' %>
           <%= cdlink_to 'удалить', @<%= singular_table_name %> %>
           <%= clink_to 'Назад', <%= index_helper %>_path, 'fa-circle-arrow-left' %>
         </div>

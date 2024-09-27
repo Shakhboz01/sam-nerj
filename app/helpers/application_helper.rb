@@ -14,7 +14,7 @@ module ApplicationHelper
   end
 
   def clink_to(title, link, image_name, method = :get)
-    styled_image = raw("<i class=\"fa fa-fw #{image_name}\"></i>")
+    styled_image = raw("<i class=\"bi #{image_name}\"></i>")
     if method == :get
       link_to link, title: title, method: method do
         styled_image

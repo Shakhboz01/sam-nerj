@@ -28,7 +28,7 @@
               <td><%= number_to_currency combination_of_local_product&.calculate_total_price %></td>
               <td><%= combination_of_local_product.comment %></td>
               <td><%= strf_datetime combination_of_local_product.created_at %></td>
-              <td><%= clink_to 'Посмотреть', combination_of_local_product_path(combination_of_local_product), 'fa-search' %></td>
+              <td><%= clink_to 'Посмотреть', combination_of_local_product_path(combination_of_local_product), 'bi-search-heart' %></td>
             </tr>
           <% end %>
         </tbody>

@@ -32,7 +32,7 @@
           <td><%= strf_datetime sale_from_local_service.created_at %></td>
         <% end %>
         <td>
-          <%= clink_to 'Посмотреть', sale_from_local_service_path(sale_from_local_service), 'fa-search' %>
+          <%= clink_to 'Посмотреть', sale_from_local_service_path(sale_from_local_service), 'bi-search-heart' %>
           <% if sale_from_local_service.closed? %>
             <%= render 'sale_from_local_services/sale_from_local_service_transaction', sale_from_local_service: sale_from_local_service %>
           <% end %>

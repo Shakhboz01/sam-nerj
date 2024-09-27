@@ -1,5 +1,5 @@
 <% if sale_from_local_service.total_paid < sale_from_local_service.total_price %>
-  <i type="button" class="fa fa-money-bill-transfer" title=<%= "Пополнить оставщегося" %> style='color: blue; cursor: pointer' data-toggle="modal" data-target="#exampleModal"></i>
+  <i type="button" class="fa bi-cash-bill-transfer" title=<%= "Пополнить оставщегося" %> style='color: blue; cursor: pointer' data-toggle="modal" data-target="#exampleModal"></i>
 <% end %>
 
 <% if sale_from_local_service.transaction_histories.exists? %>

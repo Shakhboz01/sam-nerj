@@ -22,9 +22,9 @@
         <% unless defined?(shrink) %>
           <td>
             <% if delivery_from_counterparty.closed? %>
-              <%= clink_to t('delivery_from_counterparties.open'), toggle_status_delivery_from_counterparty_path(delivery_from_counterparty),'fa-lock', :post %>
+              <%= clink_to t('delivery_from_counterparties.open'), toggle_status_delivery_from_counterparty_path(delivery_from_counterparty),'bi-lock-fill', :post %>
             <% else %>
-              <%= clink_to t('delivery_from_counterparties.close'), toggle_status_delivery_from_counterparty_path(delivery_from_counterparty),'fa-lock-open', :post %>
+              <%= clink_to t('delivery_from_counterparties.close'), toggle_status_delivery_from_counterparty_path(delivery_from_counterparty),'bi-unlock-fill', :post %>
             <% end %>
           </td>
         <% end %>
@@ -36,7 +36,7 @@
         <% end %>
         <td><%= strf_datetime(delivery_from_counterparty.created_at) %></td>
         <td>
-          <%= clink_to t('delivery_from_counterparties.view'), delivery_from_counterparty_path(delivery_from_counterparty), 'fa-search' %>
+          <%= clink_to t('delivery_from_counterparties.view'), delivery_from_counterparty_path(delivery_from_counterparty), 'bi-search-heart' %>
         </td>
       </tr>
     <% end %>

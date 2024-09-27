@@ -21,8 +21,8 @@
               <% attributes.reject(&:password_digest?).each do |attribute| -%>
                 <td><%%= <%= singular_table_name %>.<%= attribute.column_name %> %></td>
               <% end -%>
-              <td><%%= clink_to 'Посмотреть', <%= singular_route_name %>_path(<%= model_resource_name %>), 'fa-search' %></td>
-              <td><%%= clink_to 'Редактировать', edit_<%= singular_route_name %>_path(<%= singular_table_name %>), 'fa-edit' %></td>
+              <td><%%= clink_to 'Посмотреть', <%= singular_route_name %>_path(<%= model_resource_name %>), 'bi-search-heart' %></td>
+              <td><%%= clink_to 'Редактировать', edit_<%= singular_route_name %>_path(<%= singular_table_name %>), 'bi-pen' %></td>
               <td><%%= cdlink_to 'удалить', <%= model_resource_name %> %></td>
             </tr>
           <%% end %>
