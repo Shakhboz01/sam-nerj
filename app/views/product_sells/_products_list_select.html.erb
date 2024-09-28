@@ -154,7 +154,7 @@
                 </div>
               <% end %>
               <%= product.name %>
-              <i class="fas fa-info-circle product_icon" style="cursor: pointer;"></i>
+              <i class="bi bi-info-circle-fill product_icon" style="cursor: pointer;"></i>
             </td>
             <td><%= currency_convert sale_in_usd, product.sell_price_based_on_sale_currency(sale_in_usd, rate, @sale.buyer.is_worker) %></td>
             <td><%= product.initial_remaining %></td>
