@@ -34,7 +34,7 @@ module ApplicationHelper
 
   def active_check(active)
     style = active ? "green" : "red"
-    status_class = active ? "true fa-check" : "false fa-remove"
+    status_class = active ? "true fa-check" : "false bi-x"
     "<i style=\"color: #{style}\" class=\"fa fa-fw active-check-#{status_class}\"></i>".html_safe
   end
 
