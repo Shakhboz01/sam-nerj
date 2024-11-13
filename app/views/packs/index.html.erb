@@ -34,6 +34,7 @@
                 <% else %>
                   <%= clink_to t('sklad.activate'), toggle_active_pack_path(pack), 'bi-bar-chart', :post %>
                 <% end %>
+                <%= clink_to t('sklad.view'), product_entries_url(q: {pack_id_eq: pack.id}), 'bi-align-middle' %>
               </td>
             </tr>
           <% end %>
