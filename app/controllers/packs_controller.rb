@@ -101,7 +101,8 @@ class PacksController < ApplicationController
     entries = @pack.product_entries.where('amount > amount_sold').order(created_at: :asc)
     @product_entries = entries.map { |entry| {
       ostatok: entry.amount - entry.amount_sold,
-      buy_price: "#{entry.buy_price} #{entry.paid_in_usd ? '$' : 'uzs'}"
+      buy_price: "#{entry.buy_price} #{entry.paid_in_usd ? '$' : 'uzs'}",
+      sell_price: "#{entry.sell_price} #{entry.paid_in_usd ? '$' : 'uzs'}",
     } }
     render json: @product_entries
   end
