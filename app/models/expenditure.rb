@@ -10,7 +10,7 @@ class Expenditure < ApplicationRecord
   has_many :transaction_histories, dependent: :destroy
   validates_presence_of :expenditure_type
   validates_presence_of :price
-  enum expenditure_type: %i[Ро`згор портер_317_ бонго_879_ дамас_949_ дамас_394_ дамас_394_ Дамас_Жамол прочее_расходы бонго_956_ жасур_ака_бензин ойлик свет аренда]
+  enum expenditure_type: %i[Ро`згор портер_салярка портер_ремонт бонго_салярка бонго_ремонт бонго_956_газ нексия_газ_и_ремонт ламасчо_394_949_550 прочее_расходы бонго_956_Ремонт матиз_газ жасур_ака_бензин ойлик свет аренда лассети_газ конверт_пули ]
   enum payment_type: %i[naqt карта click boshqa]
   scope :price_in_uzs, -> { where('price_in_usd = ?', false) }
   scope :price_in_usd, -> { where('price_in_usd = ?', true) }
